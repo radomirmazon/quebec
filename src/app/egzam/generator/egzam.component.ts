@@ -63,7 +63,7 @@ export class EgzamComponent {
       }
 
       if (td.children.length === 1 && td.children[0].children[0].name === 'img') {
-        root.questionImgSrc = 'http://www.egzaminkf.pl/infusions/test_examination/' + td.children[0].children[0].attrs[0].value;
+        root.questionImgSrc = 'assets/test_examination/' + td.children[0].children[0].attrs[0].value;
       }
 
       if (td.children.length === 2) {

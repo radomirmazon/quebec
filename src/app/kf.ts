@@ -308,7 +308,7 @@ export const kfData = [{
       "answer": "prostownik jednopołówkowy"
     }, {"index": "c) ", "isCorrect": false, "answer": "prostownik mostkowy dwupołówkowy"}],
     "question": "37. Na rysunku przedstawiono schemat prostownika. Jak nazywa się ten rodzaj prostownika ?",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek39-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek39-1.jpg"
   }, {
     "id": "38",
     "answers": [{"index": "a) ", "isCorrect": true, "answer": "prostownik dwupołówkowy"}, {
@@ -317,7 +317,7 @@ export const kfData = [{
       "answer": "prostownik jednopołówkowy"
     }, {"index": "c) ", "isCorrect": false, "answer": "prostownik mostkowy dwupołówkowy"}],
     "question": "38. Na rysunku przedstawiono schemat prostownika. Jak nazywa się ten rodzaj prostownika ?",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek40-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek40-1.jpg"
   }, {
     "id": "39",
     "answers": [{"index": "a) ", "isCorrect": true, "answer": "niskiej częstotliwości"}, {
@@ -350,7 +350,7 @@ export const kfData = [{
       "answer": "komparator"
     }, {"index": "c) ", "isCorrect": false, "answer": "dzielnik wzorca"}],
     "question": "42. Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych, ale nieopisanych bloków. Blok 1 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek44-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek44-1.jpg"
   }, {
     "id": "43",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "dzielnik wzorca"}, {
@@ -359,7 +359,7 @@ export const kfData = [{
       "answer": "generator wzorca"
     }, {"index": "c) ", "isCorrect": false, "answer": "komparator"}],
     "question": "43. Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych, ale nieopisanych bloków. Blok 4 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek44-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek44-1.jpg"
   }, {
     "id": "44",
     "answers": [{"index": "a) ", "isCorrect": true, "answer": "wzmacniacz akustyczny"}, {
@@ -368,7 +368,7 @@ export const kfData = [{
       "answer": "detektor z reakcją"
     }, {"index": "c) ", "isCorrect": false, "answer": "wzmacniacz w.cz."}],
     "question": "44. Na rysunku przedstawiono schemat blokowy odbiornika bezpośredniego wzmocnienia z reakcją. Blok 3 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek46-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek46-1.jpg"
   }, {
     "id": "45",
     "answers": [{"index": "a) ", "isCorrect": true, "answer": "filtr wejściowy"}, {
@@ -377,7 +377,7 @@ export const kfData = [{
       "answer": "wzmacniacz akustyczny"
     }, {"index": "c) ", "isCorrect": false, "answer": "detektor AM"}],
     "question": "45. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM z pojedynczą przemianą. Blok 1 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek47-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek47-1.jpg"
   }, {
     "id": "46",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "heterodyna"}, {
@@ -386,7 +386,7 @@ export const kfData = [{
       "answer": "wzmacniacz akustyczny"
     }, {"index": "c) ", "isCorrect": false, "answer": "detektor AM"}],
     "question": "46. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM z pojedynczą przemianą. Blok 5 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek47-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek47-1.jpg"
   }, {
     "id": "47",
     "answers": [{"index": "a) ", "isCorrect": true, "answer": "wzmacniacz w.cz."}, {
@@ -395,7 +395,7 @@ export const kfData = [{
       "answer": "wzmacniacz akustyczny"
     }, {"index": "c) ", "isCorrect": false, "answer": "detektor AM CW SSB"}],
     "question": "47. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 1 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek49-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek49-1.jpg"
   }, {
     "id": "48",
     "answers": [{"index": "a) ", "isCorrect": true, "answer": "wzmacniacz akustyczny"}, {
@@ -404,7 +404,7 @@ export const kfData = [{
       "answer": "wzmacniacz pośredniej cz."
     }, {"index": "c) ", "isCorrect": false, "answer": "heterodyna"}],
     "question": "48. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 9 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek49-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek49-1.jpg"
   }, {
     "id": "49",
     "answers": [{"index": "a) ", "isCorrect": true, "answer": "filtr wejściowy"}, {
@@ -413,7 +413,7 @@ export const kfData = [{
       "answer": "wzmacniacz akustyczny"
     }, {"index": "c) ", "isCorrect": false, "answer": "heterodyna"}],
     "question": "49. Na rysunku przedstawiono schemat blokowy odbiornika homodynowego CW i SSB, na jedno pasmo amatorskie. Blok 1 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek51-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek51-1.jpg"
   }, {
     "id": "50",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "wzmacniacz akustyczny"}, {
@@ -422,7 +422,7 @@ export const kfData = [{
       "answer": "I mieszacz"
     }, {"index": "c) ", "isCorrect": false, "answer": "wzmacniacz II p.cz."}],
     "question": "50. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 2 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek52-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek52-1.jpg"
   }, {
     "id": "51",
     "answers": [{"index": "a) ", "isCorrect": true, "answer": "o 200 Hz"}, {
@@ -439,7 +439,7 @@ export const kfData = [{
       "answer": "wzmacniacz mocy (PA)"
     }, {"index": "c) ", "isCorrect": false, "answer": "separator"}],
     "question": "52. Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na jedno pasmo amatorskie. Blok 4 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek54-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek54-1.jpg"
   }, {
     "id": "53",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "wzmacniacz mocy (PA)"}, {
@@ -448,7 +448,7 @@ export const kfData = [{
       "answer": "oscylator (VFO)"
     }, {"index": "c) ", "isCorrect": false, "answer": "separator"}],
     "question": "53. Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na kilka pasm amatorskich z powielaniem częstotliwości. Blok 1 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek55-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek55-1.jpg"
   }, {
     "id": "54",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "wzmacniacz mocy (PA)"}, {
@@ -457,7 +457,7 @@ export const kfData = [{
       "answer": "oscylator (VFO) 5 - 5.5 MHz"
     }, {"index": "c) ", "isCorrect": true, "answer": "wzbudnica SSB 9 MHz"}],
     "question": "54. Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnicą 9 MHz. Blok 1 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek56-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek56-1.jpg"
   }, {
     "id": "55",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "wzmacniacz sterujący"}, {
@@ -466,7 +466,7 @@ export const kfData = [{
       "answer": "mieszacz"
     }, {"index": "c) ", "isCorrect": false, "answer": "filtr wyjściowy"}],
     "question": "55. Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnic 9 MHz. Blok 2 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek56-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek56-1.jpg"
   }, {
     "id": "56",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "wzmacniacz mocy (PA)"}, {
@@ -475,7 +475,7 @@ export const kfData = [{
       "answer": "generator kwarcowy modulowany"
     }, {"index": "c) ", "isCorrect": true, "answer": "modulator"}],
     "question": "56. Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144MHz z powielaniem częstotliwości kanałowego generatora kwarcowego 8 MHz. Blok 1 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek58-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek58-1.jpg"
   }, {
     "id": "57",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "modulator"}, {
@@ -484,7 +484,7 @@ export const kfData = [{
       "answer": "filtr wyjściowy"
     }, {"index": "c) ", "isCorrect": false, "answer": "I powielacz x 3"}],
     "question": "57. Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144MHz z powielaniem częstotliwości kanałowego generatora kwarcowego 8 MHz. Blok 7 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek58-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek58-1.jpg"
   }, {
     "id": "58",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "dookólna"}, {
@@ -509,7 +509,7 @@ export const kfData = [{
       "answer": "radiator"
     }, {"index": "c) ", "isCorrect": false, "answer": "I direktor"}],
     "question": "60. Na rysunku przedstawiona jest antena typu Yagi. Element 1 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek62-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek62-1.jpg"
   }, {
     "id": "61",
     "answers": [{"index": "a) ", "isCorrect": true, "answer": "radiator"}, {
@@ -518,7 +518,7 @@ export const kfData = [{
       "answer": "II direktor"
     }, {"index": "c) ", "isCorrect": false, "answer": "reflektor"}],
     "question": "61. Na rysunku przedstawiona jest antena typu Yagi. Element 2 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek62-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek62-1.jpg"
   }, {
     "id": "62",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "radiator"}, {
@@ -527,7 +527,7 @@ export const kfData = [{
       "answer": "I direktor"
     }, {"index": "c) ", "isCorrect": false, "answer": "II direktor"}],
     "question": "62. Na rysunku przedstawiona jest antena typu Yagi. Element 3 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek62-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek62-1.jpg"
   }, {
     "id": "63",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "I direktor"}, {
@@ -536,7 +536,7 @@ export const kfData = [{
       "answer": "II direktor"
     }, {"index": "c) ", "isCorrect": false, "answer": "radiator"}],
     "question": "63. Na rysunku przedstawiona jest antena typu Yagi. Element 4 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek62-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek62-1.jpg"
   }, {
     "id": "64",
     "answers": [{
@@ -1133,7 +1133,7 @@ export const kfData = [{
       "answer": "prostownik jednopołówkowy"
     }, {"index": "c) ", "isCorrect": true, "answer": "prostownik mostkowy dwupołówkowy"}],
     "question": "129. Na rysunku przedstawiono schemat prostownika. Jak nazywa się ten rodzaj prostownika ?",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek63-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek63-1.jpg"
   }, {
     "id": "130",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "tak"}, {
@@ -1186,7 +1186,7 @@ export const kfData = [{
       "answer": "chroni słuchawki przed uszkodzeniem"
     }],
     "question": "135. Na rysunku przedstawiono schemat detektora diodowego. Jaką rolę spełnia w nim kondensator C1?",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek64-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek64-1.jpg"
   }, {
     "id": "136",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "bo sygnał CW jest przerywany"}, {
@@ -1231,7 +1231,7 @@ export const kfData = [{
       "answer": "Colpits, Hartley, Clapp, Meisner"
     }, {"index": "c) ", "isCorrect": false, "answer": "Clapp, Colpitts, Hartley, Meissner"}],
     "question": "140. Na rysunku przedstawiono kilka układów generatorów. Są one ponumerowane od 1 do 4. Wybierz pod którą literą znajdują się poprawne nazwy generatorów zgodne z kolejnością ich narysowania.",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek65-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek65-1.jpg"
   }, {
     "id": "141",
     "answers": [{
@@ -1260,7 +1260,7 @@ export const kfData = [{
       "answer": "dzielnik nastawny"
     }, {"index": "c) ", "isCorrect": false, "answer": "generator wzorca"}],
     "question": "143. Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych ale nie opisanych bloków. Blok 2 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek44-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek44-1.jpg"
   }, {
     "id": "144",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "dzielnik nastawny"}, {
@@ -1269,7 +1269,7 @@ export const kfData = [{
       "answer": "komparator"
     }, {"index": "c) ", "isCorrect": false, "answer": "wzmacniacz błędu"}],
     "question": "144. Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych ale nie opisanych bloków. Blok 3 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek44-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek44-1.jpg"
   }, {
     "id": "145",
     "answers": [{"index": "a) ", "isCorrect": true, "answer": "dzielnik wzorca"}, {
@@ -1278,7 +1278,7 @@ export const kfData = [{
       "answer": "generator stabilizowany"
     }, {"index": "c) ", "isCorrect": false, "answer": "komparator"}],
     "question": "145. Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych ale nie opisanych bloków. Blok 5 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek44-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek44-1.jpg"
   }, {
     "id": "146",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "komparator"}, {
@@ -1287,7 +1287,7 @@ export const kfData = [{
       "answer": "dzielnik nastawny"
     }, {"index": "c) ", "isCorrect": true, "answer": "wzmacniacz błędu"}],
     "question": "146. Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych ale nie opisanych bloków. Blok 6 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek44-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek44-1.jpg"
   }, {
     "id": "147",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "detektor z reakcją"}, {
@@ -1296,7 +1296,7 @@ export const kfData = [{
       "answer": "wzmacniacz w. cz"
     }, {"index": "c) ", "isCorrect": false, "answer": "wzmacniacz akustyczny"}],
     "question": "147. Na rysunku przedstawiono schemat blokowy odbiornika bezpośredniego wzmocnienia z reakcją. Blok 1 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek46-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek46-1.jpg"
   }, {
     "id": "148",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "wzmacniacz w. cz."}, {
@@ -1305,7 +1305,7 @@ export const kfData = [{
       "answer": "wzmacniacz akustyczny"
     }, {"index": "c) ", "isCorrect": true, "answer": "detektor z reakcją"}],
     "question": "148. Na rysunku przedstawiono schemat blokowy odbiornika bezpośredniego wzmocnienia z reakcją. Blok 2 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek46-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek46-1.jpg"
   }, {
     "id": "149",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "wzmacniacz akustyczny"}, {
@@ -1314,7 +1314,7 @@ export const kfData = [{
       "answer": "mieszacz"
     }, {"index": "c) ", "isCorrect": false, "answer": "detektor AM"}],
     "question": "149. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM z pojedynczą przemianą. Blok 2 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek47-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek47-1.jpg"
   }, {
     "id": "150",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "filtr wejściowy"}, {
@@ -1323,7 +1323,7 @@ export const kfData = [{
       "answer": "wzmacniacz pośredniej cz."
     }, {"index": "c) ", "isCorrect": false, "answer": "heterodyna"}],
     "question": "150. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM z pojedynczą przemianą. Blok 3 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek47-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek47-1.jpg"
   }, {
     "id": "151",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "wzmacniacz akustyczny"}, {
@@ -1332,7 +1332,7 @@ export const kfData = [{
       "answer": "filtr wejściowy"
     }, {"index": "c) ", "isCorrect": true, "answer": "detektor AM"}],
     "question": "151. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM z pojedynczą przemianą. Blok 4 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek47-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek47-1.jpg"
   }, {
     "id": "152",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "filtr wejściowy"}, {
@@ -1341,7 +1341,7 @@ export const kfData = [{
       "answer": "wzmacniacz akustyczny"
     }, {"index": "c) ", "isCorrect": true, "answer": "heterodyna"}],
     "question": "152. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM z pojedynczą przemianą. Blok 6 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek47-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek47-1.jpg"
   }, {
     "id": "153",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "wzmacniacz akustyczny"}, {
@@ -1350,7 +1350,7 @@ export const kfData = [{
       "answer": "I mieszacz"
     }, {"index": "c) ", "isCorrect": false, "answer": "filtr przełączany II p.cz."}],
     "question": "153. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 2 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek49-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek49-1.jpg"
   }, {
     "id": "154",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "BFO"}, {
@@ -1359,7 +1359,7 @@ export const kfData = [{
       "answer": "wzmacniacz I pośredniej cz."
     }, {"index": "c) ", "isCorrect": false, "answer": "heterodyna"}],
     "question": "154. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 3 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek49-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek49-1.jpg"
   }, {
     "id": "155",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "wzmacniacz akustyczny"}, {
@@ -1368,7 +1368,7 @@ export const kfData = [{
       "answer": "BFO"
     }, {"index": "c) ", "isCorrect": true, "answer": "II mieszacz"}],
     "question": "155. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 4 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek49-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek49-1.jpg"
   }, {
     "id": "156",
     "answers": [{"index": "a) ", "isCorrect": true, "answer": "II heterodyna stała"}, {
@@ -1377,7 +1377,7 @@ export const kfData = [{
       "answer": "wzmacniacz akustyczny"
     }, {"index": "c) ", "isCorrect": false, "answer": "detektor AM CW SSB"}],
     "question": "156. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 5 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek49-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek49-1.jpg"
   }, {
     "id": "157",
     "answers": [{"index": "a) ", "isCorrect": true, "answer": "filtr przełączany II p.cz."}, {
@@ -1386,7 +1386,7 @@ export const kfData = [{
       "answer": "wzmacniacz akustyczny"
     }, {"index": "c) ", "isCorrect": false, "answer": "II heterodyna stała"}],
     "question": "157. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 6 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek49-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek49-1.jpg"
   }, {
     "id": "158",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "BFO"}, {
@@ -1395,7 +1395,7 @@ export const kfData = [{
       "answer": "wzmacniacz II pośredniej cz."
     }, {"index": "c) ", "isCorrect": false, "answer": "detektor AM , CW, SSB"}],
     "question": "158. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 7 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek49-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek49-1.jpg"
   }, {
     "id": "159",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "wzmacniacz akustyczny"}, {
@@ -1404,7 +1404,7 @@ export const kfData = [{
       "answer": "wzmacniacz w.cz."
     }, {"index": "c) ", "isCorrect": true, "answer": "detektor AM, CW, SSB"}],
     "question": "159. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 8 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek49-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek49-1.jpg"
   }, {
     "id": "160",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "wzmacniacz akustyczny"}, {
@@ -1413,7 +1413,7 @@ export const kfData = [{
       "answer": "BFO"
     }, {"index": "c) ", "isCorrect": false, "answer": "detektor AM, CW, SSB"}],
     "question": "160. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 10 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek49-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek49-1.jpg"
   }, {
     "id": "161",
     "answers": [{"index": "a) ", "isCorrect": true, "answer": "I heterodyna strojona"}, {
@@ -1422,7 +1422,7 @@ export const kfData = [{
       "answer": "wzmacniacz akustyczny"
     }, {"index": "c) ", "isCorrect": false, "answer": "detektor AM"}],
     "question": "161. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 11 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek49-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek49-1.jpg"
   }, {
     "id": "162",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "wzmacniacz akustyczny"}, {
@@ -1431,7 +1431,7 @@ export const kfData = [{
       "answer": "filtr wejściowy"
     }, {"index": "c) ", "isCorrect": true, "answer": "mieszacz zrównoważony"}],
     "question": "162. Na rysunku przedstawiono schemat blokowy odbiornika homodynowego CW i SSB, na jedno pasmo amatorskie. Blok 2 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek51-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek51-1.jpg"
   }, {
     "id": "163",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "heterodyna"}, {
@@ -1440,7 +1440,7 @@ export const kfData = [{
       "answer": "wzmacniacz akustyczny"
     }, {"index": "c) ", "isCorrect": false, "answer": "filtr wejściowy"}],
     "question": "163. Na rysunku przedstawiono schemat blokowy odbiornika homodynowego CW i SSB, na jedno pasmo amatorskie. Blok 3 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek51-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek51-1.jpg"
   }, {
     "id": "164",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "filtr wejściowy"}, {
@@ -1449,7 +1449,7 @@ export const kfData = [{
       "answer": "wzmacniacz akustyczny"
     }, {"index": "c) ", "isCorrect": true, "answer": "heterodyna"}],
     "question": "164. Na rysunku przedstawiono schemat blokowy odbiornika homodynowego CW i SSB, na jedno pasmo amatorskie. Blok 4 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek51-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek51-1.jpg"
   }, {
     "id": "165",
     "answers": [{"index": "a) ", "isCorrect": true, "answer": "wzmacniacz w.cz."}, {
@@ -1458,7 +1458,7 @@ export const kfData = [{
       "answer": "wzmacniacz akustyczny"
     }, {"index": "c) ", "isCorrect": false, "answer": "detektor FM"}],
     "question": "165. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 1 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek52-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek52-1.jpg"
   }, {
     "id": "166",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "wzmacniacz w.cz."}, {
@@ -1467,7 +1467,7 @@ export const kfData = [{
       "answer": "wzmacniacz I pośredniej cz. 10,7 MHz"
     }, {"index": "c) ", "isCorrect": false, "answer": "I heterodyna"}],
     "question": "166. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 3 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek52-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek52-1.jpg"
   }, {
     "id": "167",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "wzmacniacz akustyczny"}, {
@@ -1476,7 +1476,7 @@ export const kfData = [{
       "answer": "blokada szumów"
     }, {"index": "c) ", "isCorrect": true, "answer": "II mieszacz"}],
     "question": "167. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 4 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek52-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek52-1.jpg"
   }, {
     "id": "168",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "II heterodyna stała"}, {
@@ -1485,7 +1485,7 @@ export const kfData = [{
       "answer": "wzmacniacz II p.cz. 455 kHz"
     }, {"index": "c) ", "isCorrect": false, "answer": "detektor FM"}],
     "question": "168. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 5 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek52-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek52-1.jpg"
   }, {
     "id": "169",
     "answers": [{"index": "a) ", "isCorrect": true, "answer": "detektor FM"}, {
@@ -1494,7 +1494,7 @@ export const kfData = [{
       "answer": "wzmacniacz akustyczny"
     }, {"index": "c) ", "isCorrect": false, "answer": "II heterodyna stała"}],
     "question": "169. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 6 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek52-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek52-1.jpg"
   }, {
     "id": "170",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "wzmacniacz II p. cz. 455kHz"}, {
@@ -1503,7 +1503,7 @@ export const kfData = [{
       "answer": "wzmacniacz akustyczny"
     }, {"index": "c) ", "isCorrect": false, "answer": "detektor FM"}],
     "question": "170. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 7 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek52-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek52-1.jpg"
   }, {
     "id": "171",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "wzmacniacz akustyczny"}, {
@@ -1512,7 +1512,7 @@ export const kfData = [{
       "answer": "blokada szumów"
     }, {"index": "c) ", "isCorrect": false, "answer": "detektor FM"}],
     "question": "171. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 8 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek52-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek52-1.jpg"
   }, {
     "id": "172",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "wzmacniacz akustyczny"}, {
@@ -1521,7 +1521,7 @@ export const kfData = [{
       "answer": "blokada szumów"
     }, {"index": "c) ", "isCorrect": true, "answer": "II heterodyna stała"}],
     "question": "172. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 9 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek52-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek52-1.jpg"
   }, {
     "id": "173",
     "answers": [{"index": "a) ", "isCorrect": true, "answer": "I heterodyna kwarcowa"}, {
@@ -1530,7 +1530,7 @@ export const kfData = [{
       "answer": "wzmacniacz akustyczny"
     }, {"index": "c) ", "isCorrect": false, "answer": "detektor FM"}],
     "question": "173. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 10 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek52-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek52-1.jpg"
   }, {
     "id": "174",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "przy -10dB"}, {
@@ -1555,7 +1555,7 @@ export const kfData = [{
       "answer": "wzmacniacz mocy (PA)"
     }, {"index": "c) ", "isCorrect": true, "answer": "oscylator (VFO)"}],
     "question": "176. Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na jedno pasmo amatorskie. Blok 1 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek54-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek54-1.jpg"
   }, {
     "id": "177",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "wzmacniacz mocy (PA)"}, {
@@ -1564,7 +1564,7 @@ export const kfData = [{
       "answer": "oscylator (VFO)"
     }, {"index": "c) ", "isCorrect": true, "answer": "separator"}],
     "question": "177. Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na jedno pasmo amatorskie. Blok 2 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek54-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek54-1.jpg"
   }, {
     "id": "178",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "oscylator (VFO)"}, {
@@ -1573,7 +1573,7 @@ export const kfData = [{
       "answer": "wzmacniacz mocy (PA)"
     }, {"index": "c) ", "isCorrect": false, "answer": "filtr wyjściowy"}],
     "question": "178. Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na jedno pasmo amatorskie. Blok 3 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek54-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek54-1.jpg"
   }, {
     "id": "179",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "wzmacniacz sterujący"}, {
@@ -1582,7 +1582,7 @@ export const kfData = [{
       "answer": "separator"
     }, {"index": "c) ", "isCorrect": false, "answer": "I powielacz x2"}],
     "question": "179. Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na kilka pasm amatorskich z powielaniem częstotliwości. Blok 2 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek55-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek55-1.jpg"
   }, {
     "id": "180",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "wzmacniacz mocy (PA)"}, {
@@ -1591,7 +1591,7 @@ export const kfData = [{
       "answer": "I powielacz x2"
     }, {"index": "c) ", "isCorrect": false, "answer": "oscylator (VFO)"}],
     "question": "180. Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na kilka pasm amatorskich z powielaniem częstotliwości. Blok 3 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek55-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek55-1.jpg"
   }, {
     "id": "181",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "wzmacniacz sterujący"}, {
@@ -1600,7 +1600,7 @@ export const kfData = [{
       "answer": "filtr wyjściowy"
     }, {"index": "c) ", "isCorrect": true, "answer": "II powielacz x2"}],
     "question": "181. Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na kilka pasm amatorskich z powielaniem częstotliwości. Blok 4 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek55-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek55-1.jpg"
   }, {
     "id": "182",
     "answers": [{"index": "a) ", "isCorrect": true, "answer": "wzmacniacz sterujący"}, {
@@ -1609,7 +1609,7 @@ export const kfData = [{
       "answer": "I powielacz x2"
     }, {"index": "c) ", "isCorrect": false, "answer": "oscylator (VFO)"}],
     "question": "182. Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na kilka pasm amatorskich z powielaniem częstotliwości. Blok 5 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek55-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek55-1.jpg"
   }, {
     "id": "183",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "filtr wyjściowy"}, {
@@ -1618,7 +1618,7 @@ export const kfData = [{
       "answer": "wzmacniacz mocy (PA)"
     }, {"index": "c) ", "isCorrect": false, "answer": "II powielacz x2"}],
     "question": "183. Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na kilka pasm amatorskich z powielaniem częstotliwości. Blok 6 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek55-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek55-1.jpg"
   }, {
     "id": "184",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "oscylator (VFO)"}, {
@@ -1627,7 +1627,7 @@ export const kfData = [{
       "answer": "filtr wyjściowy"
     }, {"index": "c) ", "isCorrect": false, "answer": "separator"}],
     "question": "184. Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na kilka pasm amatorskich z powielaniem częstotliwości. Blok 7 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek55-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek55-1.jpg"
   }, {
     "id": "185",
     "answers": [{"index": "a) ", "isCorrect": true, "answer": "filtr pasmowy 3.5 - 14 MHz"}, {
@@ -1636,7 +1636,7 @@ export const kfData = [{
       "answer": "wzmacniacz mocy (PA)"
     }, {"index": "c) ", "isCorrect": false, "answer": "VFO 5 - 5.5 MHz"}],
     "question": "185. Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnicą 9 MHz. Blok 3 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek56-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek56-1.jpg"
   }, {
     "id": "186",
     "answers": [{"index": "a) ", "isCorrect": true, "answer": "wzmacniacz sterujący"}, {
@@ -1645,7 +1645,7 @@ export const kfData = [{
       "answer": "filtr wyjściowy"
     }, {"index": "c) ", "isCorrect": false, "answer": "wzbudnica SSB 9 MHz"}],
     "question": "186. Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnicą 9 MHz. Blok 4 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek56-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek56-1.jpg"
   }, {
     "id": "187",
     "answers": [{"index": "a) ", "isCorrect": true, "answer": "wzmacniacz mocy (PA)"}, {
@@ -1654,7 +1654,7 @@ export const kfData = [{
       "answer": "mieszacz"
     }, {"index": "c) ", "isCorrect": false, "answer": "oscylator (VFO) 5 - 5.5 MHz"}],
     "question": "187. Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnicą 9 MHz. Blok 5 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek56-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek56-1.jpg"
   }, {
     "id": "188",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "wzmacniacz mocy (PA)"}, {
@@ -1663,7 +1663,7 @@ export const kfData = [{
       "answer": "filtr wyjściowy"
     }, {"index": "c) ", "isCorrect": false, "answer": "mieszacz"}],
     "question": "188. Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnicą 9 MHz. Blok 6 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek56-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek56-1.jpg"
   }, {
     "id": "189",
     "answers": [{"index": "a) ", "isCorrect": true, "answer": "oscylator (VFO) 5-5.5 MHz"}, {
@@ -1672,7 +1672,7 @@ export const kfData = [{
       "answer": "filtr wyjściowy"
     }, {"index": "c) ", "isCorrect": false, "answer": "filtr pasmowy 3.5 - 14 MHz"}],
     "question": "189. Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnicą 9 MHz. Blok 7 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek56-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek56-1.jpg"
   }, {
     "id": "190",
     "answers": [{"index": "a) ", "isCorrect": true, "answer": "generator kwarcowy modulowany"}, {
@@ -1681,7 +1681,7 @@ export const kfData = [{
       "answer": "modulator"
     }, {"index": "c) ", "isCorrect": false, "answer": "I powielacz x3"}],
     "question": "190. Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144MHz z powielaniem częstotliwości kanałowego generatora kwarcowego 8 MHz. Blok 2 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek58-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek58-1.jpg"
   }, {
     "id": "191",
     "answers": [{"index": "a) ", "isCorrect": true, "answer": "I powielacz x3"}, {
@@ -1690,7 +1690,7 @@ export const kfData = [{
       "answer": "II powielacz x3"
     }, {"index": "c) ", "isCorrect": false, "answer": "generator kwarcowy modulowany"}],
     "question": "191. Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144MHz z powielaniem częstotliwości kanałowego generatora kwarcowego 8 MHz. Blok 3 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek58-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek58-1.jpg"
   }, {
     "id": "192",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "wzmacniacz mocy (PA)"}, {
@@ -1699,7 +1699,7 @@ export const kfData = [{
       "answer": "filtr wyjściowy"
     }, {"index": "c) ", "isCorrect": true, "answer": "II powielacz x3"}],
     "question": "192. Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144MHz z powielaniem częstotliwości kanałowego generatora kwarcowego 8 MHz. Blok 4 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek58-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek58-1.jpg"
   }, {
     "id": "193",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "filtr wyjściowy"}, {
@@ -1708,7 +1708,7 @@ export const kfData = [{
       "answer": "III powielacz x2"
     }, {"index": "c) ", "isCorrect": false, "answer": "modulator"}],
     "question": "193. Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144MHz z powielaniem częstotliwości kanałowego generatora kwarcowego 8 MHz. Blok 5 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek58-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek58-1.jpg"
   }, {
     "id": "194",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "filtr wyjściowy"}, {
@@ -1717,7 +1717,7 @@ export const kfData = [{
       "answer": "wzmacniacz mocy (PA)"
     }, {"index": "c) ", "isCorrect": false, "answer": "II powielacz x3"}],
     "question": "194. Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144MHz z powielaniem częstotliwości kanałowego generatora kwarcowego 8 MHz. Blok 6 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek58-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek58-1.jpg"
   }, {
     "id": "195",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "wzmacniacz mocy (PA)"}, {
@@ -1726,7 +1726,7 @@ export const kfData = [{
       "answer": "generator PLL"
     }, {"index": "c) ", "isCorrect": true, "answer": "modulator"}],
     "question": "195. Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144 MHz z generatorem PLL. Blok 1 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek66-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek66-1.jpg"
   }, {
     "id": "196",
     "answers": [{"index": "a) ", "isCorrect": true, "answer": "generator PLL"}, {
@@ -1735,7 +1735,7 @@ export const kfData = [{
       "answer": "modulator"
     }, {"index": "c) ", "isCorrect": false, "answer": "wzmacniacz sterujący"}],
     "question": "196. Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144 MHz z generatorem PLL. Blok 2 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek66-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek66-1.jpg"
   }, {
     "id": "197",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "modulator"}, {
@@ -1744,7 +1744,7 @@ export const kfData = [{
       "answer": "wzmacniacz sterujący"
     }, {"index": "c) ", "isCorrect": false, "answer": "generator PLL"}],
     "question": "197. Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144 MHz z generatorem PLL. Blok 3 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek66-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek66-1.jpg"
   }, {
     "id": "198",
     "answers": [{"index": "a) ", "isCorrect": true, "answer": "wzmacniacz mocy (PA)"}, {
@@ -1753,7 +1753,7 @@ export const kfData = [{
       "answer": "filtr wyjściowy"
     }, {"index": "c) ", "isCorrect": false, "answer": "modulator"}],
     "question": "198. Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144 MHz z generatorem PLL. Blok 4 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek66-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek66-1.jpg"
   }, {
     "id": "199",
     "answers": [{"index": "a) ", "isCorrect": true, "answer": "filtr wyjściowy"}, {
@@ -1762,7 +1762,7 @@ export const kfData = [{
       "answer": "wzmacniacz sterujący"
     }, {"index": "c) ", "isCorrect": false, "answer": "modulator"}],
     "question": "199. Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144 MHz z generatorem PLL. Blok 5 to:",
-    "questionImgSrc": "http://www.egzaminkf.pl/infusions/test_examination/images/rysunek66-1.jpg"
+    "questionImgSrc": "assets/test_examination/rysunek66-1.jpg"
   }, {
     "id": "200",
     "answers": [{"index": "a) ", "isCorrect": false, "answer": "nie zmienia się"}, {
