@@ -1,0 +1,30 @@
+.box-container {
+  width: 100px;
+  position: relative;
+  border-radius: 4px;
+}
+
+.selected-card {
+  box-shadow: 0 8px 8px 8px rgba(0,0,0,.2), 0 8px 8px 0 rgba(0,0,0,.14), 0 8px 8px 0 rgba(0,0,0,.12) !important;
+  transform: translate3d(0,0,0);
+  transition: background .4s cubic-bezier(.25,.8,.25,1),box-shadow 280ms cubic-bezier(.4,0,.2,1);
+}
+
+.box-img {
+  width: 90px;
+}
+
+.counter {
+  position: absolute;
+  top: 56px;
+  left: 0;
+  width: 90px;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  color: #1a27c3;
+}
+
+.counter-span {
+  text-align: center;
+}

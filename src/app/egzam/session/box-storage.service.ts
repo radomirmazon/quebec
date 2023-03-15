@@ -2,6 +2,7 @@ import {Injectable} from "@angular/core";
 import {LocalStorageService} from "angular-web-storage";
 import {SESSION_KEY} from "./session.component";
 import {kfData} from "../../kf";
+import {KF} from "../generator/egzam.component";
 
 interface BoxStorageInterface {
   div: {
@@ -20,7 +21,7 @@ interface BoxStorageItem {
 @Injectable({
   providedIn: "root"
 })
-export class BoxStoage {
+export class BoxStorage {
 
   storage: BoxStorageInterface = {
     div: []
@@ -30,7 +31,7 @@ export class BoxStoage {
     const s = this.local.get(SESSION_KEY);
     if (!s) {
       this.init();
-      this.local.set(SESSION_KEY, this.storage, 0);
+      this.store();
     } else {
       this.storage = s;
     }
@@ -78,5 +79,36 @@ export class BoxStoage {
 
   getDivs(): string[] {
     return this.storage.div.map(d => d.title);
+  }
+
+  getRandomQuestion(divIndex: number, boxIndex: number): KF {
+    const qs = this.storage.div[divIndex].item.filter(i => i.box == boxIndex);
+    const randomId =  qs[Math.floor(Math.random()*qs.length)].id;
+    return kfData[divIndex].q.filter(q=> q.id === randomId)[0];
+  }
+
+  setAnswer(result: { id: string, wasCorrect: boolean}) {
+    const a = this.getItemById(result.id);
+    if (result.wasCorrect) {
+      a.box++;
+      a.good++
+    } else {
+      a.box = 0;
+      a.bad++;
+    }
+    this.store();
+  }
+
+  private store() {
+    this.local.set(SESSION_KEY, this.storage, 0);
+  }
+
+  getThumbs(id: string) {
+    const a = this.getItemById(id);
+    return {down: a.bad, up: a.good};
+  }
+
+  private getItemById(id: string) {
+    return this.storage.div.flatMap(d => d.item).filter(item => item.id === id)[0];
   }
 }

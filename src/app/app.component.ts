@@ -31,7 +31,7 @@ export class AppComponent {
     'P': ['Papa', 'Paweł', 'Portugal', 'Peter', 'Pawieł', 'Petr', 'Paul', 'Paris', 'Panama', 'Portugal'],
     'Q': ['Quebec', 'Quebec', 'Quebec', 'Queen', 'Szczuka', 'Quido', 'Quebec', 'Quebec', 'Quito', 'Quito'],
     'R': ['Romeo', 'Roman', 'Radio', 'Robert', 'Roman', 'Rudolf', 'Radio', 'Radio', 'Roma', 'Radio'],
-    'S': ['Sierra', 'Stanisław', 'Sugar', 'Susan', 'Siergij', 'Svatopluk', 'Siegfried', 'Santiago', 'Sorrento', 'Santiago'],
+    'S': ['Sierra', 'Stefan', 'Sugar', 'Susan', 'Siergij', 'Svatopluk', 'Siegfried', 'Santiago', 'Sorrento', 'Santiago'],
     'Ś': ['Sierra', 'Światowid', 'Sugar', 'Susan', 'Siergij', 'Svatopluk', 'Siegfried', 'Santiago', 'Sorrento', 'Santiago'],
     'T': ['Tango', 'Tadeusz', 'Texas', 'Thomas', 'Tatiana', 'Tomas', 'Texas', 'Texas', 'Torino', 'Turquia'],
     'U': ['Uniform', 'Urszula', 'United', 'Union', 'Uliana', 'Urban', 'Urlich', 'Union', 'Unione', 'Universita'],
