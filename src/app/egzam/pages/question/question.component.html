@@ -1,11 +1,11 @@
-  <mat-card-header >
+<mat-card-content>
     <b>{{question.question}}</b>
     <br/>
-
-  </mat-card-header>
-
-
-  <mat-card-content>
+    <div *ngIf="question.questionImgSrc">
+      <img [src]="question.questionImgSrc">
+      <br/>
+    </div>
+    <br/>
     <div mat-raised-button *ngFor="let a of question.answers" class="answer-button">
       <button mat-raised-button (click)="onSelected(a)"
               [ngClass]="{'correct': a['isCorrect'] && showCorrect, 'incorrect': !a['isCorrect'] && showCorrect}"

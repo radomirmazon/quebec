@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build  --configuration production --base-href=/quebec/",
+    "build": "ng build  --configuration production --deploy-url /quebec/ ",
     "test": "ng test"
   },
   "private": true,
