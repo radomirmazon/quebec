@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-spell',
-  templateUrl: './spell.component.html',
-  styleUrls: ['./spell.component.css']
+  selector: 'app-spelling',
+  templateUrl: './spelling.component.html',
+  styleUrls: ['./spelling.component.css']
 })
-export class SpellComponent {
+export class SpellingComponent {
 
   meaning = ['miedzynarodowa', 'polski', 'angielski', 'amerykański', 'rosyjski', 'czeski', 'niemiecki',
     'francuski', 'włoski', 'hiszpańsk'];
