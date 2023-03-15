@@ -1,6 +1,3 @@
-import {Component} from "@angular/core";
-
-@Component({
-  selector: 'kf-home',
-  templateUrl: ''
-})
+<div class="kf">
+<kf-div *ngFor="let d of divs;let i=index;" [division]="d" [divIndex]="i" (boxSelected)="onBoxSelected($event)"></kf-div>
+</div>

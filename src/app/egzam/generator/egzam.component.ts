@@ -4,8 +4,7 @@ import {HttpClient} from "@angular/common/http";
 
 @Component({
   selector: 'app-egzam',
-  templateUrl: './egzam.component.html',
-  styleUrls: ['./egzam.component.css']
+  templateUrl: './egzam.component.html'
 })
 export class EgzamComponent {
 
