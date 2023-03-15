@@ -1,0 +1,25 @@
+.answer-button {
+  padding: 6px;
+}
+
+.correct {
+  background-color: greenyellow;
+}
+
+.incorrect {
+  background-color: red;
+}
+
+.buttons-container button {
+  padding-left: 10px;
+}
+
+.thumbs {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.thumbs-container {
+  position: relative;
+}

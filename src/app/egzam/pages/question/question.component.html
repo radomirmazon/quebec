@@ -1,0 +1,29 @@
+  <mat-card-header >
+    <b>{{question.question}}</b>
+    <br/>
+
+  </mat-card-header>
+
+
+  <mat-card-content>
+    <div mat-raised-button *ngFor="let a of question.answers" class="answer-button">
+      <button mat-raised-button (click)="onSelected(a)"
+              [ngClass]="{'correct': a['isCorrect'] && showCorrect, 'incorrect': !a['isCorrect'] && showCorrect}"
+      >{{a['answer']}}</button>
+    </div>
+  </mat-card-content>
+
+
+  <mat-card-footer class="buttons-container thumbs-container">
+    <button mat-flat-button (click)="onClose()">Zamknij</button>
+    <button mat-raised-button *ngIf="selectedAnswer" (click)="onNext()">Następny >></button>
+    <div *ngIf="thubms.up >0 && thubms.down >0 " class="thumbs">
+      <mat-icon>thumb_up</mat-icon>{{thubms.up}}
+      <mat-icon>thumb_down</mat-icon>{{thubms.down}}
+    </div>
+  </mat-card-footer>
+
+
+
+
+
