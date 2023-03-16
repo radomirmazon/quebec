@@ -12,18 +12,16 @@ export class DivisionComponent {
   @Input()
   division: string = '';
 
-  @Input()
-  divIndex: number = -1;
 
   @Output()
-  boxSelected = new Subject<{divIndex: number, boxIndex: number}>();
+  boxSelected = new Subject<{division: string, boxIndex: number}>();
 
   constructor(public storage: BoxStorage) {
   }
 
   onBoxSelected(boxIndex: number) {
     this.boxSelected.next({
-     divIndex: this.divIndex, boxIndex
+      division: this.division, boxIndex
     });
   }
 }

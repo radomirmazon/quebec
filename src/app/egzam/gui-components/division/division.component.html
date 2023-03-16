@@ -1,7 +1,7 @@
-<mat-card *ngIf="divIndex>=0" class="mat-elevation-z6 division-card">
+<mat-card class="mat-elevation-z6 division-card">
   <mat-card-header>{{division}}</mat-card-header>
   <mat-card-content fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="10px" class="kf-box-container">
-    <div *ngFor="let boxCounter of storage.getBoxesCounter(divIndex);let boxIndex=index;"  >
+    <div *ngFor="let boxCounter of storage.getBoxesCounter(division);let boxIndex=index;"  >
       <kf-box [numbersOfCards]="boxCounter" (click)="onBoxSelected(boxIndex)"></kf-box>
     </div>
   </mat-card-content>

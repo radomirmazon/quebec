@@ -1,7 +1,26 @@
 
-<kf-home (boxSelected)="onSelected($event)"></kf-home>
+<mat-tab-group animationDuration="0ms">
+  <mat-tab label="Literowanie">
+    Znak wywoławczy:
+    <app-spelling></app-spelling>
+  </mat-tab>
+  <mat-tab label="egzaminkf.pl kat.A">
+    <kf-home (boxSelected)="onSelected($event)" [divsSelector]="[0,1,2,3]" ></kf-home>
+  </mat-tab>
+  <mat-tab label="hackerspace Kraków kat.A">
+    <kf-home (boxSelected)="onSelected($event)" [divsSelector]="[4,5,6,7]"></kf-home>
+  </mat-tab>
+</mat-tab-group>
 
-<br/><hr/>Literowanie:
-<app-spelling></app-spelling>
+<div class="footer">
+  Źródła:  https://github.com/HackerspaceKRK/pytania-egzaminacyjne | http://www.egzaminkf.pl/home.php <br/>
+  Autor nie bierze odpowiedzialności za poprawność pytań. Pamiętaj w odpowiedziach mogą być błędy.
+</div>
+
+
+
+
+
+
 
 

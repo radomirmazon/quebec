@@ -19,12 +19,15 @@ import {DivisionComponent} from "./egzam/gui-components/division/division.compon
 import {DirectiveElevation} from "./directive-elevation";
 import {FlexLayoutModule} from "@angular/flex-layout";
 import {MatIconModule} from "@angular/material/icon";
+import {Egzam2Component} from "./egzam/generator/egzam2.component";
+import {MatTabsModule} from "@angular/material/tabs";
 
 @NgModule({
   declarations: [
     AppComponent,
     SpellingComponent,
     EgzamComponent,
+    Egzam2Component,
     SessionComponent,
     HomeComponent,
     QuestionComponent,
@@ -35,7 +38,7 @@ import {MatIconModule} from "@angular/material/icon";
   imports: [
     BrowserModule, FormsModule, HttpClientModule, BrowserAnimationsModule,
     AngularWebStorageModule, MatDialogModule, MatButtonModule, MatCardModule,
-    FlexLayoutModule, MatIconModule
+    FlexLayoutModule, MatIconModule, MatTabsModule
   ],
   providers: [
     QuestionComponent,

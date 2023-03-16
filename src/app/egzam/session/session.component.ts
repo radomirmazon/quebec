@@ -1,10 +1,8 @@
-import {Component, OnInit} from "@angular/core";
+import {Component} from "@angular/core";
 import {KF} from "../generator/egzam.component";
-import {LocalStorageService} from "angular-web-storage";
 import {BoxStorage} from "./box-storage.service";
-import {MatDialog, MatDialogRef} from "@angular/material/dialog";
+import {MatDialog} from "@angular/material/dialog";
 import {QuestionComponent} from "../pages/question/question.component";
-import {debounce, debounceTime, filter, take} from "rxjs";
 
 export const SESSION_KEY = "session_"
 const STATE_IDLE = 0;
@@ -13,12 +11,13 @@ const STATE_RUNNIG = 1;
 
 @Component({
   selector: 'app-session',
-  templateUrl: './session.component.html'
+  templateUrl: './session.component.html',
+  styles: [`.footer {font-size: small; position: absolute; bottom: 10px}`]
 })
 export class SessionComponent {
 
   state: number = STATE_IDLE;
-  divIndex: number | null = null;
+  division: string | null = null;
   boxIndex: number | null = null;
 
   constructor(public dialog: MatDialog, private storage: BoxStorage) {
@@ -36,7 +35,7 @@ export class SessionComponent {
     ref.beforeClosed().subscribe(result => {
       if (result == null) {
         this.state = STATE_IDLE;
-        this.divIndex = null;
+        this.division = null;
         this.boxIndex = null;
       } else {
         this.storage.setAnswer(result);
@@ -45,9 +44,9 @@ export class SessionComponent {
     });
   }
 
-  onSelected($event: { divIndex: number, boxIndex: number }) {
+  onSelected($event: { division: string, boxIndex: number }) {
     this.state = STATE_RUNNIG;
-    this.divIndex = $event.divIndex;
+    this.division = $event.division;
     this.boxIndex = $event.boxIndex;
     this.drawQuestion();
   }
@@ -55,7 +54,7 @@ export class SessionComponent {
   private drawQuestion() {
     if (this.state === STATE_RUNNIG) {
       // @ts-ignore
-      this.openQuestion(this.storage.getRandomQuestion(this.divIndex, this.boxIndex));
+      this.openQuestion(this.storage.getRandomQuestion(this.division, this.boxIndex));
     }
   }
 

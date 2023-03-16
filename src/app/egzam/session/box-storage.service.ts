@@ -3,6 +3,7 @@ import {LocalStorageService} from "angular-web-storage";
 import {SESSION_KEY} from "./session.component";
 import {kfData} from "../../kf";
 import {KF} from "../generator/egzam.component";
+import {newKfData} from "../../new-kf";
 
 interface BoxStorageInterface {
   div: {
@@ -29,7 +30,7 @@ export class BoxStorage {
 
   constructor(private local: LocalStorageService) {
     const s = this.local.get(SESSION_KEY);
-    if (!s) {
+    if (!s || s.div.length !== 8) {
       this.init();
       this.store();
     } else {
@@ -42,30 +43,33 @@ export class BoxStorage {
       div: []
     };
 
+    this.storage.div.push(this.initItemKf(kfData, 0));
+    this.storage.div.push(this.initItemKf(kfData, 1));
+    this.storage.div.push(this.initItemKf(kfData, 2));
+    this.storage.div.push(this.initItemKf(kfData, 3));
 
-    this.storage.div.push(this.initItem(0));
-    this.storage.div.push(this.initItem(1));
-    this.storage.div.push(this.initItem(2));
-    this.storage.div.push(this.initItem(3));
-
+    this.storage.div.push(this.initItemKf(newKfData, 0));
+    this.storage.div.push(this.initItemKf(newKfData, 1));
+    this.storage.div.push(this.initItemKf(newKfData, 2));
+    this.storage.div.push(this.initItemKf(newKfData, 3));
 
   }
 
-  initItem(index: number) {
+  initItemKf(kf: any, index: number) {
     return {
       item:
-        kfData[index].q.map(q => ({
+        kf[index].q.map((q: KF) => ({
           id: q.id,
           box: 0,
           bad: 0,
           good: 0
         })),
-      title: kfData[index].name
+      title: kf[index].name
     };
   }
 
-  getBoxesCounter(divIndex: number): number[] {
-    const itemsInTheBox = this.storage.div[divIndex].item;
+  getBoxesCounter(division: string): number[] {
+    const itemsInTheBox = this.storage.div.filter(d => d.title === division)[0].item;
     const boxesCounter: number[] = [];
     itemsInTheBox.forEach(item => {
       const index = item.box;
@@ -77,14 +81,27 @@ export class BoxStorage {
     return boxesCounter;
   }
 
-  getDivs(): string[] {
-    return this.storage.div.map(d => d.title);
+  getDivs(selector: number[]): string[] {
+    return this.storage.div.map(d => d.title)
+      .filter((i, index) => selector.filter(a => a===index).length > 0);
   }
 
-  getRandomQuestion(divIndex: number, boxIndex: number): KF {
-    const qs = this.storage.div[divIndex].item.filter(i => i.box == boxIndex);
+  getRandomQuestion(divisionName: string, boxIndex: number): KF {
+    const qs = this.storage.div.filter(d=> d.title === divisionName)[0].item.filter(i => i.box == boxIndex);
     const randomId =  qs[Math.floor(Math.random()*qs.length)].id;
-    return kfData[divIndex].q.filter(q=> q.id === randomId)[0];
+    return this.getQ(divisionName).q.filter((q: KF)=> q.id === randomId)[0];
+  }
+
+  getQ(divisionName: string): any {
+    const candidateA: any = kfData.filter(i => i.name === divisionName);
+    const candidateB: any = newKfData.filter(i => i.name === divisionName);
+    if (candidateA.length === 1) {
+      return candidateA[0];
+    }
+    if (candidateB.length === 1) {
+      return candidateB[0];
+    }
+    return [];
   }
 
   setAnswer(result: { id: string, wasCorrect: boolean}) {
@@ -109,6 +126,6 @@ export class BoxStorage {
   }
 
   private getItemById(id: string) {
-    return this.storage.div.flatMap(d => d.item).filter(item => item.id === id)[0];
+    return this.storage.div.flatMap(d => d.item).filter(item => item.id === id || item.id === 'A' + id)[0];
   }
 }

@@ -1,4 +1,4 @@
-import {Component, OnInit, Output} from "@angular/core";
+import {Component, Input, OnInit, Output} from "@angular/core";
 import {BoxStorage} from "../../session/box-storage.service";
 import {Subject} from "rxjs";
 
@@ -10,15 +10,17 @@ import {Subject} from "rxjs";
 export class HomeComponent implements OnInit {
   divs: string[] = [];
 
+  @Input()
+  divsSelector: number[] = [];
 
   @Output()
-  boxSelected = new Subject<{divIndex: number, boxIndex: number}>();
+  boxSelected = new Subject<{division: string, boxIndex: number}>();
 
   constructor(public storage: BoxStorage) {
   }
 
   ngOnInit() {
-    this.divs = this.storage.getDivs();
+    this.divs = this.storage.getDivs(this.divsSelector);
   }
 
 
