@@ -4753,7 +4753,7 @@ export const newKfData = [{
     "answers": [{"index": "a", "answer": "Organizacja Narodów Zjednoczonych (ONZ)", "isCorrect": false}, {
       "index": "b",
       "answer": "Międzynarodowy Związek Telekomunikacyjny (ITU)",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "c", "answer": "Światowa Organizacja Handlu (WTO)", "isCorrect": false}]
   }, {
     "id": "A2",
@@ -4762,7 +4762,7 @@ export const newKfData = [{
     "answers": [{"index": "a", "answer": "kategorycznie jest to zabronione", "isCorrect": false}, {
       "index": "b",
       "answer": "jest to dopuszczalne w przypadku transmisji pomiędzy stacjami w jednym kraju",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "c", "answer": "jest to dozwolone", "isCorrect": false}]
   }, {
     "id": "A3",
@@ -4772,7 +4772,7 @@ export const newKfData = [{
       "index": "a",
       "answer": "wolno tylko w sytuacji kiedy słychać tam inną stację amatorską",
       "isCorrect": false
-    }, {"index": "b", "answer": "kategorycznie nie wolno", "isCorrect": false}, {
+    }, {"index": "b", "answer": "kategorycznie nie wolno", "isCorrect": true}, {
       "index": "c",
       "answer": "wolno z mocą maksymalną 10 W",
       "isCorrect": false
@@ -4788,7 +4788,7 @@ export const newKfData = [{
     }, {
       "index": "b",
       "answer": "zgłosić do Urzędu Komunikacji Elektronicznej fakt nieuprawnionej transmisji w paśmie amatorskim",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "c", "answer": "nie robić nic", "isCorrect": false}]
   }, {
     "id": "A5",
@@ -4810,7 +4810,7 @@ export const newKfData = [{
     "answers": [{"index": "a", "answer": "konstytucja ITU", "isCorrect": false}, {
       "index": "b",
       "answer": "regulamin Radiokomunikacyjny (Radio Regulations) ITU",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "c", "answer": "konwencja ITU", "isCorrect": false}]
   }, {
     "id": "A7",
@@ -4819,7 +4819,7 @@ export const newKfData = [{
     "answers": [{"index": "a", "answer": "w trzecim", "isCorrect": false}, {
       "index": "b",
       "answer": "w pierwszym",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "c", "answer": "w drugim", "isCorrect": false}]
   }, {
     "id": "A8",
@@ -4836,7 +4836,7 @@ export const newKfData = [{
     }, {
       "index": "c",
       "answer": "zaleca się wykorzystywanie stacji amatorskich w powyższych przypadkach",
-      "isCorrect": false
+      "isCorrect": true
     }]
   }, {
     "id": "A9",
@@ -4845,13 +4845,13 @@ export const newKfData = [{
     "answers": [{"index": "a", "answer": "nie, regulują to przepisy krajowe", "isCorrect": false}, {
       "index": "b",
       "answer": "tak, Regulamin Radiokomunikacyjny określa ściśle zasady przyznawania znaków",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "c", "answer": "nie, znak wywoławczy obiera sobie sam operator stacji", "isCorrect": false}]
   }, {
     "id": "A10",
     "questionImgSrc": "",
     "question": "Czy postanowienia Regulaminu Radiokomunikacyjnego ITU dotyczące służby amatorskiej obowiązują również w służbie amatorskiej satelitarnej?",
-    "answers": [{"index": "a", "answer": "tak, obowiązują", "isCorrect": false}, {
+    "answers": [{"index": "a", "answer": "tak, obowiązują", "isCorrect": true}, {
       "index": "b",
       "answer": "nie, obowiązują odrębne przepisy",
       "isCorrect": false
@@ -4863,13 +4863,13 @@ export const newKfData = [{
     "answers": [{"index": "a", "answer": "tak, może", "isCorrect": false}, {
       "index": "b",
       "answer": "tak, może, ale maksymalnie 90 dni",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "c", "answer": "nie, nie może", "isCorrect": false}]
   }, {
     "id": "A12",
     "questionImgSrc": "",
     "question": "Przez jaki okres czasu może posiadacz międzynarodowego pozwolenia amatorskiego zgodnego z zaleceniem CEPT T/R 61-01 pracować z terytorium innego kraju uznającego to zalecenie, bez konieczności uzyskiwania pozwolenia od miejscowej administracji łączności?",
-    "answers": [{"index": "a", "answer": "1 miesiąc", "isCorrect": false}, {
+    "answers": [{"index": "a", "answer": "1 miesiąc", "isCorrect": true}, {
       "index": "b",
       "answer": "90 dni",
       "isCorrect": false
@@ -4885,7 +4885,7 @@ export const newKfData = [{
     }, {"index": "b", "answer": "europejskie Biuro Radiokomunikacji (ERO)", "isCorrect": false}, {
       "index": "c",
       "answer": "regulator krajowy",
-      "isCorrect": false
+      "isCorrect": true
     }]
   }, {
     "id": "A14",
@@ -4895,7 +4895,7 @@ export const newKfData = [{
       "index": "a",
       "answer": "międzynarodowy Związek Telekomunikacyjny (ITU)",
       "isCorrect": false
-    }, {"index": "b", "answer": "międzynarodowy Związek Radioamatorów (IARU)", "isCorrect": false}, {
+    }, {"index": "b", "answer": "międzynarodowy Związek Radioamatorów (IARU)", "isCorrect": true}, {
       "index": "c",
       "answer": "europejskie Biuro Radiokomunikacji (ERO)",
       "isCorrect": false
@@ -4907,7 +4907,7 @@ export const newKfData = [{
     "answers": [{"index": "a", "answer": "minister właściwy do spraw cyfryzacji", "isCorrect": false}, {
       "index": "b",
       "answer": "prezes Urzędu Komunikacji Elektronicznej",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "c", "answer": "minister właściwy do spraw wewnętrznych", "isCorrect": false}]
   }, {
     "id": "A16",
@@ -4920,7 +4920,7 @@ export const newKfData = [{
     }, {"index": "b", "answer": "ustawa Prawo ochrony środowiska", "isCorrect": false}, {
       "index": "c",
       "answer": "ustawa Prawo telekomunikacyjne",
-      "isCorrect": false
+      "isCorrect": true
     }]
   }, {
     "id": "A17",
@@ -4929,7 +4929,7 @@ export const newKfData = [{
     "answers": [{"index": "a", "answer": "w ustawie Prawo telekomunikacyjne", "isCorrect": false}, {
       "index": "b",
       "answer": "w rozporządzeniu Rady Ministrów w sprawie Krajowej Tablicy Przeznaczeń Częstotliwości",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "c", "answer": "w decyzjach Prezesa Urzędu Komunikacji Elektronicznej", "isCorrect": false}]
   }, {
     "id": "A18",
@@ -4946,7 +4946,7 @@ export const newKfData = [{
     }, {
       "index": "c",
       "answer": "służba taka może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb, którym częstotliwości mogą zostać przydzielone w późniejszym terminie, służba taka nie może powodować szkodliwych zakłóceń w pracy stacji służb pierwszej ważności, którym przydzielono częstotliwości lub mogą być przydzielone w późniejszym terminie",
-      "isCorrect": false
+      "isCorrect": true
     }]
   }, {
     "id": "A19",
@@ -4959,7 +4959,7 @@ export const newKfData = [{
     }, {
       "index": "b",
       "answer": "służba taka nie może powodować szkodliwych zakłóceń w pracy stacji służb pierwszej ważności, którym przydzielono częstotliwości lub mogą być przydzielone w późniejszym terminie; służba taka nie może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji służb pierwszej ważności; którym przydzielono częstotliwości lub mogą być przydzielone w późniejszym terminie; służba taka może jednak żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb drugiej ważności, którym częstotliwości mogą być przydzielone w późniejszym terminie",
-      "isCorrect": false
+      "isCorrect": true
     }, {
       "index": "c",
       "answer": "służba taka może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb drugiej ważności, którym częstotliwości mogą być przydzielone w późniejszym terminie",
@@ -4972,7 +4972,7 @@ export const newKfData = [{
     "answers": [{"index": "a", "answer": "ustawa Prawo telekomunikacyjne", "isCorrect": false}, {
       "index": "b",
       "answer": "rozporządzenie ministra właściwego do spraw cyfryzacji",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "c", "answer": "zarządzenie Prezesa Urzędu Komunikacji Elektronicznej", "isCorrect": false}]
   }, {
     "id": "A21",
@@ -4981,7 +4981,7 @@ export const newKfData = [{
     "answers": [{
       "index": "a",
       "answer": "do uzyskania pozwolenia amatorskiego kategorii 1 oraz kategorii 5",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "b", "answer": "do uzyskania pozwolenia amatorskiego kategorii 3", "isCorrect": false}, {
       "index": "c",
       "answer": "wyłącznie do pracy na stacji klubowej",
@@ -4995,7 +4995,7 @@ export const newKfData = [{
       "index": "a",
       "answer": "do uzyskania pozwolenia amatorskiego kategorii 1",
       "isCorrect": false
-    }, {"index": "b", "answer": "do uzyskania pozwolenia amatorskiego kategorii 3", "isCorrect": false}, {
+    }, {"index": "b", "answer": "do uzyskania pozwolenia amatorskiego kategorii 3", "isCorrect": true}, {
       "index": "c",
       "answer": "wyłącznie do pracy na stacji klubowej",
       "isCorrect": false
@@ -5004,7 +5004,7 @@ export const newKfData = [{
     "id": "A23",
     "questionImgSrc": "",
     "question": "Na jaki okres czasu wydawane są indywidualne pozwolenia amatorskie kategorii 1 i 3?",
-    "answers": [{"index": "a", "answer": "10 lat", "isCorrect": false}, {
+    "answers": [{"index": "a", "answer": "10 lat", "isCorrect": true}, {
       "index": "b",
       "answer": "15 lat",
       "isCorrect": false
@@ -5013,7 +5013,7 @@ export const newKfData = [{
     "id": "A24",
     "questionImgSrc": "",
     "question": "Na jaki okres czasu wydawane są pozwolenia amatorskie kategorii 5?",
-    "answers": [{"index": "a", "answer": "5 lat", "isCorrect": false}, {
+    "answers": [{"index": "a", "answer": "5 lat", "isCorrect": true}, {
       "index": "b",
       "answer": "10 lat",
       "isCorrect": false
@@ -5025,7 +5025,7 @@ export const newKfData = [{
     "answers": [{"index": "a", "answer": "50 watów", "isCorrect": false}, {
       "index": "b",
       "answer": "500 watów",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "c", "answer": "250 watów", "isCorrect": false}]
   }, {
     "id": "A26",
@@ -5034,7 +5034,7 @@ export const newKfData = [{
     "answers": [{"index": "a", "answer": "15 watów", "isCorrect": false}, {
       "index": "b",
       "answer": "100 watów",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "c", "answer": "150 watów", "isCorrect": false}]
   }, {
     "id": "A27",
@@ -5043,7 +5043,7 @@ export const newKfData = [{
     "answers": [{
       "index": "a",
       "answer": "50 watów dla nadajnika poniżej 30 MHz a 15 watów dla nadajnika powyżej 30 MHz",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "b", "answer": "50 watów", "isCorrect": false}, {
       "index": "c",
       "answer": "150 watów",
@@ -5057,7 +5057,7 @@ export const newKfData = [{
       "index": "b",
       "answer": "1000 watów",
       "isCorrect": false
-    }, {"index": "c", "answer": "1500 watów", "isCorrect": false}]
+    }, {"index": "c", "answer": "1500 watów", "isCorrect": true}]
   }, {
     "id": "A29",
     "questionImgSrc": "",
@@ -5069,7 +5069,7 @@ export const newKfData = [{
     }, {
       "index": "c",
       "answer": "we wszystkich zakresach częstotliwości przeznaczonych dla służby radiokomunikacyjnej amatorskiej na terytorium RP",
-      "isCorrect": false
+      "isCorrect": true
     }]
   }, {
     "id": "A30",
@@ -5078,7 +5078,7 @@ export const newKfData = [{
     "answers": [{"index": "a", "answer": "28000-29900 kHz oraz 144-146 MHz", "isCorrect": false}, {
       "index": "b",
       "answer": "1,81-2 MHz; 3,5-3,8 MHz; 7-7,2 MHz; 14-14,35 MHz; 21-21,45 MHz; 28-29,7 MHz, 144-146 MHz; 430-440 MHz oraz 10-10,5 GHz",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "c", "answer": "28000-29900 kHz oraz 430-440 MHz", "isCorrect": false}]
   }, {
     "id": "A31",
@@ -5088,7 +5088,7 @@ export const newKfData = [{
       "index": "b",
       "answer": "wyłącznie emisją F3E (telefonia z modulacją częstotliwości)",
       "isCorrect": false
-    }, {"index": "c", "answer": "wszystkimi rodzajami emisji z wyjątkiem F3E", "isCorrect": false}]
+    }, {"index": "c", "answer": "wszystkimi rodzajami emisji z wyjątkiem F3E", "isCorrect": true}]
   }, {
     "id": "A32",
     "questionImgSrc": "",
@@ -5104,7 +5104,7 @@ export const newKfData = [{
     }, {
       "index": "c",
       "answer": "wyłącznie emisją A1A (telegrafia) z mocą 1 wat e.i.r.p. (równoważna moc promieniowana izotropowo)",
-      "isCorrect": false
+      "isCorrect": true
     }]
   }, {
     "id": "A33",
@@ -5113,7 +5113,7 @@ export const newKfData = [{
     "answers": [{
       "index": "a",
       "answer": "rozporządzenie ministra właściwego do spraw cyfryzacji",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "b", "answer": "ustawa Prawo telekomunikacyjne", "isCorrect": false}, {
       "index": "c",
       "answer": "Krajowa Tablica Przeznaczeń Częstotliwości",
@@ -5130,7 +5130,7 @@ export const newKfData = [{
     }, {"index": "b", "answer": "zachować treść wiadomości w ścisłej tajemnicy", "isCorrect": false}, {
       "index": "c",
       "answer": "zachować treść wiadomości w ścisłej tajemnicy, zaś w przypadku gdy odebrana wiadomość zawiera istotne dla funkcjonowania Państwa lub porządku publicznego informacje - powiadomić najbliższą jednostkę administracji publicznej",
-      "isCorrect": false
+      "isCorrect": true
     }]
   }, {
     "id": "A35",
@@ -5139,7 +5139,7 @@ export const newKfData = [{
     "answers": [{"index": "a", "answer": "co pół godziny", "isCorrect": false}, {
       "index": "b",
       "answer": "tak często, jak jest to w praktyce możliwe, przede wszystkim na początku i końcu łączności",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "c", "answer": "nie musi podawać znaku wywoławczego", "isCorrect": false}]
   }, {
     "id": "A36",
@@ -5148,7 +5148,7 @@ export const newKfData = [{
     "answers": [{
       "index": "a",
       "answer": "urządzenia radiowe nadawcze lub nadawczo-odbiorcze wraz z systemem albo systemami antenowymi niezbędne do wykonywania w jednej lokalizacji służby radiokomunikacyjnej amatorskiej",
-      "isCorrect": false
+      "isCorrect": true
     }, {
       "index": "b",
       "answer": "Osobę fizyczną, prawną lub jednostkę organizacyjną nieposiadającą osobowości prawnej, której wydano pozwolenie w służbie radiokomunikacyjnej amatorskiej",
@@ -5174,7 +5174,7 @@ export const newKfData = [{
     "answers": [{
       "index": "a",
       "answer": "tak, pozwolenia kategorii 1 mogą być wydawane osobie prawnej, w tym terenowej jednostce organizacyjnej stowarzyszenia posiadającego osobowość prawną, a także stowarzyszeniu zwykłemu",
-      "isCorrect": false
+      "isCorrect": true
     }, {
       "index": "b",
       "answer": "nie, pozwolenia mogą być wydawane jedynie osobom fizycznym ",
@@ -5188,7 +5188,7 @@ export const newKfData = [{
     "id": "A39",
     "questionImgSrc": "",
     "question": "We wniosku o wydanie pozwolenia radiowego, lokalizację stacji amatorskiej oznaczamy:",
-    "answers": [{"index": "a", "answer": "za pomocą adresu ", "isCorrect": false}, {
+    "answers": [{"index": "a", "answer": "za pomocą adresu ", "isCorrect": true}, {
       "index": "b",
       "answer": "posługując się QTH Locatorem",
       "isCorrect": false
@@ -5205,7 +5205,7 @@ export const newKfData = [{
       "index": "b",
       "answer": "nie, obowiązkowy dziennik łączności może być prowadzony także elektronicznie",
       "isCorrect": false
-    }, {"index": "c", "answer": "nie, dziennik łączności nie jest wymagany ", "isCorrect": false}]
+    }, {"index": "c", "answer": "nie, dziennik łączności nie jest wymagany ", "isCorrect": true}]
   }, {
     "id": "A41",
     "questionImgSrc": "",
@@ -5218,7 +5218,7 @@ export const newKfData = [{
       "index": "b",
       "answer": "należy posiadać świadectwo operatora urządzeń radiowych i co najmniej średnie wykształcenie",
       "isCorrect": false
-    }, {"index": "c", "answer": "należy posiadać świadectwo operatora urządzeń radiowych", "isCorrect": false}]
+    }, {"index": "c", "answer": "należy posiadać świadectwo operatora urządzeń radiowych", "isCorrect": true}]
   }, {
     "id": "A42",
     "questionImgSrc": "",
@@ -5226,7 +5226,7 @@ export const newKfData = [{
     "answers": [{"index": "a", "answer": "tak", "isCorrect": false}, {
       "index": "b",
       "answer": "nie, znak wywoławczy przydzielany jest w pozwoleniu radiowym",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "c", "answer": "tak, jeżeli dana osoba posiada radiostację", "isCorrect": false}]
   }, {
     "id": "A43",
@@ -5235,7 +5235,7 @@ export const newKfData = [{
     "answers": [{
       "index": "a",
       "answer": "prefiksu, cyfry i maksymalnie 4 znaków z czego ostatni musi być literą",
-      "isCorrect": false
+      "isCorrect": true
     }, {
       "index": "b",
       "answer": "prefiksu, dwóch cyfr i sufiksu z maksymalnie 4 znaków",
@@ -5248,13 +5248,13 @@ export const newKfData = [{
     "answers": [{"index": "a", "answer": "Bil, fox", "isCorrect": false}, {
       "index": "b",
       "answer": "bravo, foxtrot",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "c", "answer": "box, Florida", "isCorrect": false}]
   }, {
     "id": "A45",
     "questionImgSrc": "",
     "question": "Poprawne literowanie wg alfabetu ITU litery C i G:",
-    "answers": [{"index": "a", "answer": "Charlie, golf", "isCorrect": false}, {
+    "answers": [{"index": "a", "answer": "Charlie, golf", "isCorrect": true}, {
       "index": "b",
       "answer": "Canada, gold",
       "isCorrect": false
@@ -5267,7 +5267,7 @@ export const newKfData = [{
       "index": "b",
       "answer": "Italia, Kaz",
       "isCorrect": false
-    }, {"index": "c", "answer": "India, Kilo", "isCorrect": false}]
+    }, {"index": "c", "answer": "India, Kilo", "isCorrect": true}]
   }, {
     "id": "A47",
     "questionImgSrc": "",
@@ -5275,13 +5275,13 @@ export const newKfData = [{
     "answers": [{"index": "a", "answer": "Ren, Viktor", "isCorrect": false}, {
       "index": "b",
       "answer": "Romeo, Viktor",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "c", "answer": "radio, Viola", "isCorrect": false}]
   }, {
     "id": "A48",
     "questionImgSrc": "",
     "question": "Poprawne literowanie wg alfabetu ITU litery X i S:",
-    "answers": [{"index": "a", "answer": "X-Ray, Sierra", "isCorrect": false}, {
+    "answers": [{"index": "a", "answer": "X-Ray, Sierra", "isCorrect": true}, {
       "index": "b",
       "answer": "Xsen, Santiago",
       "isCorrect": false
@@ -5290,7 +5290,7 @@ export const newKfData = [{
     "id": "A49",
     "questionImgSrc": "",
     "question": "Które prefiksy znaków wywoławczych przeznaczone są dla Polski?",
-    "answers": [{"index": "a", "answer": "HF, SN, SO, SP, SQ, SR, 3Z", "isCorrect": false}, {
+    "answers": [{"index": "a", "answer": "HF, SN, SO, SP, SQ, SR, 3Z", "isCorrect": true}, {
       "index": "b",
       "answer": "HF, SN, SO, SP, SQ, 3Z, 3X",
       "isCorrect": false
@@ -5302,7 +5302,7 @@ export const newKfData = [{
     "answers": [{"index": "a", "answer": "1810 kHz - 1950 kHz", "isCorrect": false}, {
       "index": "b",
       "answer": "1810 kHz - 2000 kHz",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "c", "answer": "1810 kHz - 1980 kHz", "isCorrect": false}]
   }, {
     "id": "A51",
@@ -5312,12 +5312,12 @@ export const newKfData = [{
       "index": "b",
       "answer": "3500 kHz - 3750 kHz",
       "isCorrect": false
-    }, {"index": "c", "answer": "3500 kHz - 3800 kHz", "isCorrect": false}]
+    }, {"index": "c", "answer": "3500 kHz - 3800 kHz", "isCorrect": true}]
   }, {
     "id": "A52",
     "questionImgSrc": "",
     "question": "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 40 m to:",
-    "answers": [{"index": "a", "answer": "7000 kHz - 7200 kHz", "isCorrect": false}, {
+    "answers": [{"index": "a", "answer": "7000 kHz - 7200 kHz", "isCorrect": true}, {
       "index": "b",
       "answer": "7100 kHz - 7300 kHz",
       "isCorrect": false
@@ -5329,13 +5329,13 @@ export const newKfData = [{
     "answers": [{"index": "a", "answer": "10050 kHz - 10200 kHz", "isCorrect": false}, {
       "index": "b",
       "answer": "10100 kHz - 10150 kHz",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "c", "answer": "10100 kHz - 10200 kHz", "isCorrect": false}]
   }, {
     "id": "A54",
     "questionImgSrc": "",
     "question": "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 20 m to:",
-    "answers": [{"index": "a", "answer": "14000 kHz - 14350 kHz", "isCorrect": false}, {
+    "answers": [{"index": "a", "answer": "14000 kHz - 14350 kHz", "isCorrect": true}, {
       "index": "b",
       "answer": "14000 kHz - 14450 kHz",
       "isCorrect": false
@@ -5347,7 +5347,7 @@ export const newKfData = [{
     "answers": [{"index": "a", "answer": "18050 kHz - 18250 kHz", "isCorrect": false}, {
       "index": "b",
       "answer": "18068 kHz - 18168 kHz",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "c", "answer": "18000 kHz - 18168 kHz", "isCorrect": false}]
   }, {
     "id": "A56",
@@ -5357,7 +5357,7 @@ export const newKfData = [{
       "index": "b",
       "answer": "21100 kHz - 21450 kHz",
       "isCorrect": false
-    }, {"index": "c", "answer": "21000 kHz - 21450 kHz", "isCorrect": false}]
+    }, {"index": "c", "answer": "21000 kHz - 21450 kHz", "isCorrect": true}]
   }, {
     "id": "A57",
     "questionImgSrc": "",
@@ -5365,7 +5365,7 @@ export const newKfData = [{
     "answers": [{"index": "a", "answer": "24690 kHz - 24990 kHz", "isCorrect": false}, {
       "index": "b",
       "answer": "24890 kHz - 24990 kHz",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "c", "answer": "24680 kHz - 24990 kHz", "isCorrect": false}]
   }, {
     "id": "A58",
@@ -5375,7 +5375,7 @@ export const newKfData = [{
       "index": "b",
       "answer": "28000 kHz - 29500 kHz",
       "isCorrect": false
-    }, {"index": "c", "answer": "28000 kHz - 29700 kHz", "isCorrect": false}]
+    }, {"index": "c", "answer": "28000 kHz - 29700 kHz", "isCorrect": true}]
   }, {
     "id": "A59",
     "questionImgSrc": "",
@@ -5383,13 +5383,13 @@ export const newKfData = [{
     "answers": [{"index": "a", "answer": "50 MHz - 54 MHz", "isCorrect": false}, {
       "index": "b",
       "answer": "50 MHz - 52 MHz",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "c", "answer": "50 MHz - 53,5 MHz", "isCorrect": false}]
   }, {
     "id": "A60",
     "questionImgSrc": "",
     "question": "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 2 m to:",
-    "answers": [{"index": "a", "answer": "144 MHz - 146 MHz", "isCorrect": false}, {
+    "answers": [{"index": "a", "answer": "144 MHz - 146 MHz", "isCorrect": true}, {
       "index": "b",
       "answer": "144 MHz - 148 MHz",
       "isCorrect": false
@@ -5398,7 +5398,7 @@ export const newKfData = [{
     "id": "A61",
     "questionImgSrc": "",
     "question": "Jaki jest odstęp między częstotliwością nadawczą a odbiorczą przemienników pracujących w paśmie 2 m?",
-    "answers": [{"index": "a", "answer": "600 kHz", "isCorrect": false}, {
+    "answers": [{"index": "a", "answer": "600 kHz", "isCorrect": true}, {
       "index": "b",
       "answer": "650 kHz",
       "isCorrect": false
@@ -5410,7 +5410,7 @@ export const newKfData = [{
     "answers": [{
       "index": "a",
       "answer": "na początku znaku wywoławczego stacji amatorskiej ",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "b", "answer": "na końcu znaku stacji amatorskiej ", "isCorrect": false}, {
       "index": "c",
       "answer": "znak nie identyfikuje kraju dlatego musimy posługiwać się tzw callbookiem lub specjalnymi stronami www",
@@ -5424,12 +5424,12 @@ export const newKfData = [{
       "index": "b",
       "answer": "3Z",
       "isCorrect": false
-    }, {"index": "c", "answer": "SR", "isCorrect": false}]
+    }, {"index": "c", "answer": "SR", "isCorrect": true}]
   }, {
     "id": "A64",
     "questionImgSrc": "",
     "question": "Który z prefiksów dotyczy krótkofalowca z Ameryki Północnej?",
-    "answers": [{"index": "a", "answer": "W", "isCorrect": false}, {
+    "answers": [{"index": "a", "answer": "W", "isCorrect": true}, {
       "index": "b",
       "answer": "BY",
       "isCorrect": false
@@ -5441,7 +5441,7 @@ export const newKfData = [{
     "answers": [{"index": "a", "answer": "stacja nadaje niezgodnie z przepisami", "isCorrect": false}, {
       "index": "b",
       "answer": "Nie możesz odpowiedzieć na jej wywołanie na 7220 kHz, gdyż ta częstotliwość znajduje się poza pasmem amatorskim w Polsce",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "c", "answer": "ma uszkodzony nadajnik", "isCorrect": false}]
   }, {
     "id": "A66",
@@ -5450,7 +5450,7 @@ export const newKfData = [{
     "answers": [{"index": "a", "answer": "Określonej w pozwoleniu ", "isCorrect": false}, {
       "index": "b",
       "answer": "Minimalnej, niezbędnej do zapewnienia zadowalającej jakości transmisji, nie większej jednak niż określona w pozwoleniu",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "c", "answer": "Dowolnej, nie większej jednak niż określona w pozwoleniu", "isCorrect": false}]
   }, {
     "id": "A67",
@@ -5459,7 +5459,7 @@ export const newKfData = [{
     "answers": [{"index": "a", "answer": "Nie możesz", "isCorrect": false}, {
       "index": "b",
       "answer": "Możesz, poprzedzisz swój własny znak prefiksem DL (właściwym dla kraju CEPT, do którego przyjechałeś)",
-      "isCorrect": false
+      "isCorrect": true
     }, {
       "index": "c",
       "answer": "Możesz, zamieniasz polski prefix na prefix kraju, do którego przyjechałeś",
@@ -5469,7 +5469,7 @@ export const newKfData = [{
     "id": "A68",
     "questionImgSrc": "",
     "question": "Które z krajów nie należą do CEPT, ale nadal możesz stamtąd nadawać podczas krótkiej podróży po wypełnieniu rekomendacji T/R 61-01?",
-    "answers": [{"index": "a", "answer": "Stany Zjednoczone, Kanada, Izrael", "isCorrect": false}, {
+    "answers": [{"index": "a", "answer": "Stany Zjednoczone, Kanada, Izrael", "isCorrect": true}, {
       "index": "b",
       "answer": "Arabia Saudyjska, Bahrajn, Irak",
       "isCorrect": false
@@ -5481,17 +5481,10 @@ export const newKfData = [{
     "answers": [{
       "index": "a",
       "answer": "Nie, stacje mają zakaz transmisji sygnałów zbędnych, nieużytecznych, fałszywych lub wprowadzających w błąd ",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "b", "answer": "Tak, jest to przywilej radioamatorów ", "isCorrect": false}, {
       "index": "c",
       "answer": "Nie, nie można nadawać komercyjnej muzyki oraz transmisji o charakterze religijnym",
-      "isCorrect": false
-    }]
-  }, {
-    "id": "A",
-    "questionImgSrc": "https://hackerspacekrk.github.io/pytania-egzaminacyjne/ilustracje/undefined",
-    "answers": [{"index": "a", "isCorrect": false}, {"index": "b", "isCorrect": false}, {
-      "index": "c",
       "isCorrect": false
     }]
   }]
