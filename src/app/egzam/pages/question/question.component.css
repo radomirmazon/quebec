@@ -14,12 +14,16 @@
   padding-left: 10px;
 }
 
+.next {
+  position: absolute;
+  left: 200px;
+}
+
 .thumbs {
   position: absolute;
   right: 10px;
   top: 10px;
 }
-
 .thumbs-container {
   position: relative;
 }

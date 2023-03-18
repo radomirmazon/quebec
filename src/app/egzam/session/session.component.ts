@@ -3,6 +3,7 @@ import {KF} from "../generator/egzam.component";
 import {BoxStorage} from "./box-storage.service";
 import {MatDialog} from "@angular/material/dialog";
 import {QuestionComponent} from "../pages/question/question.component";
+import {ClearSessionComponent} from "../pages/clear-session/clear-session.component";
 
 export const SESSION_KEY = "session_"
 const STATE_IDLE = 0;
@@ -12,7 +13,7 @@ const STATE_RUNNIG = 1;
 @Component({
   selector: 'app-session',
   templateUrl: './session.component.html',
-  styles: [`.footer {font-size: small; position: absolute; bottom: 10px}`]
+  styleUrls: ['./session.component.css']
 })
 export class SessionComponent {
 
@@ -20,7 +21,7 @@ export class SessionComponent {
   division: string | null = null;
   boxIndex: number | null = null;
 
-  constructor(public dialog: MatDialog, private storage: BoxStorage) {
+  constructor(public dialog: MatDialog, public storage: BoxStorage) {
   }
 
   openQuestion(data: KF) {
@@ -64,4 +65,10 @@ export class SessionComponent {
     }
   }
 
+  onClear() {
+    this.dialog.open(ClearSessionComponent, {
+      disableClose: false,
+      hasBackdrop: true
+    });
+  }
 }

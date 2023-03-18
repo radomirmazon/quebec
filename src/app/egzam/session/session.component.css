@@ -1,0 +1,10 @@
+.footer {
+  font-size: small;
+  position: absolute;
+  bottom: 10px
+}
+
+.clear-link {
+  text-decoration: underline;
+  cursor: pointer;
+}

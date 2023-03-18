@@ -21,6 +21,7 @@ import {FlexLayoutModule} from "@angular/flex-layout";
 import {MatIconModule} from "@angular/material/icon";
 import {Egzam2Component} from "./egzam/generator/egzam2.component";
 import {MatTabsModule} from "@angular/material/tabs";
+import {ClearSessionComponent} from "./egzam/pages/clear-session/clear-session.component";
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import {MatTabsModule} from "@angular/material/tabs";
     QuestionComponent,
     BoxComponent,
     DivisionComponent,
-    DirectiveElevation
+    DirectiveElevation,
+    ClearSessionComponent
   ],
   imports: [
     BrowserModule, FormsModule, HttpClientModule, BrowserAnimationsModule,

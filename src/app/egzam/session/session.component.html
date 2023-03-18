@@ -12,9 +12,14 @@
   </mat-tab>
 </mat-tab-group>
 
+
 <div class="footer">
-  Źródła:  https://github.com/HackerspaceKRK/pytania-egzaminacyjne | http://www.egzaminkf.pl/home.php <br/>
+  Źródła:
+  <a href="https://github.com/HackerspaceKRK/pytania-egzaminacyjne" target="_blank">https://github.com/HackerspaceKRK/pytania-egzaminacyjne</a>
+  |
+  <a href="http://www.egzaminkf.pl/home.php" target="_blank">http://www.egzaminkf.pl/home.php</a> <br/>
   Autor nie bierze odpowiedzialności za poprawność pytań. Pamiętaj w odpowiedziach mogą być błędy.
+  <span *ngIf="storage.canClear"> <a (click)="onClear()" class="clear-link"> -- Wyczyść sesję -- </a></span>
 </div>
 
 

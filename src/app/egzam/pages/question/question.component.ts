@@ -14,12 +14,17 @@ export class QuestionComponent {
   showCorrect = false;
   selectedAnswer: KFAnswer | null = null;
   thubms: {up: number, down: number} = {up:0, down:0};
+  canGiveUp = false;
+  canSkip = false;
 
   constructor(@Inject(MAT_DIALOG_DATA) public data: {question: KF},
               public dialogRef: MatDialogRef<QuestionComponent>,
               private storage: BoxStorage) {
     this.question = data.question;
     this.thubms = storage.getThumbs(data.question.id);
+    setTimeout(() => {
+      this.canGiveUp = true;
+    }, 5000);
   }
 
   onClose() {
@@ -37,6 +42,18 @@ export class QuestionComponent {
     this.dialogRef.close({
       id: this.question.id,
       wasCorrect: this.selectedAnswer?.isCorrect
+    });
+  }
+
+  onGiveUp() {
+    this.showCorrect = true;
+    this.canSkip = true;
+  }
+
+  onSkip() {
+    this.dialogRef.close({
+      id: this.question.id,
+      wasCorrect: null
     });
   }
 }

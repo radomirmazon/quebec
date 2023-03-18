@@ -28,6 +28,8 @@ export class BoxStorage {
     div: []
   };
 
+  public canClear = true;
+
   constructor(private local: LocalStorageService) {
     const s = this.local.get(SESSION_KEY);
     if (!s || s.div.length !== 8) {
@@ -87,7 +89,7 @@ export class BoxStorage {
   }
 
   getRandomQuestion(divisionName: string, boxIndex: number): KF {
-    const qs = this.storage.div.filter(d=> d.title === divisionName)[0].item.filter(i => i.box == boxIndex);
+    const qs = this.storage.div.filter(d=> d.title === divisionName)[0].item.filter(i => i.box === boxIndex);
     const randomId =  qs[Math.floor(Math.random()*qs.length)].id;
     return this.getQ(divisionName).q.filter((q: KF)=> q.id === randomId)[0];
   }
@@ -128,4 +130,11 @@ export class BoxStorage {
   private getItemById(id: string) {
     return this.storage.div.flatMap(d => d.item).filter(item => item.id === id || item.id === 'A' + id)[0];
   }
+
+  clear() {
+    this.init();
+    this.store();
+    this.canClear = false;
+  }
+
 }
