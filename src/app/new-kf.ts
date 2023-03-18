@@ -3421,13 +3421,6 @@ export const newKfData = [{
       "answer": "zawsze, bez względu na moc",
       "isCorrect": false
     }, {"index": "c", "answer": "to nie ma znaczenia, rolę filtru pełni transformator zasilacza", "isCorrect": false}]
-  }, {
-    "id": "A",
-    "questionImgSrc": "https://hackerspacekrk.github.io/pytania-egzaminacyjne/ilustracje/undefined",
-    "answers": [{"index": "a", "isCorrect": false}, {"index": "b", "isCorrect": false}, {
-      "index": "c",
-      "isCorrect": false
-    }]
   }]
 }, {
   "name": "dział 2 - BHP",
@@ -3891,13 +3884,6 @@ export const newKfData = [{
       "answer": "neutralny",
       "isCorrect": false
     }, {"index": "c", "answer": "ochronno-uziemiający", "isCorrect": false}]
-  }, {
-    "id": "A",
-    "questionImgSrc": "https://hackerspacekrk.github.io/pytania-egzaminacyjne/ilustracje/undefined",
-    "answers": [{"index": "a", "isCorrect": false}, {"index": "b", "isCorrect": false}, {
-      "index": "c",
-      "isCorrect": false
-    }]
   }]
 }, {
   "name": "dział 3 - PROCEDURY I ZWYCZAJE OPERATORSKIE",
@@ -4736,13 +4722,6 @@ export const newKfData = [{
       "answer": "Nie, można nie podawać znaków wywoławczych w krótkich łącznościach, beż żadnych konsekwencji",
       "isCorrect": false
     }]
-  }, {
-    "id": "A",
-    "questionImgSrc": "https://hackerspacekrk.github.io/pytania-egzaminacyjne/ilustracje/undefined",
-    "answers": [{"index": "a", "isCorrect": false}, {"index": "b", "isCorrect": false}, {
-      "index": "c",
-      "isCorrect": false
-    }]
   }]
 }, {
   "name": "dział 4 - PRZEPISY DOTYCZĄCE RADIOKOMUNIKACYJNEJ SŁUŻBY AMATORSKIEJ",
@@ -4801,7 +4780,7 @@ export const newKfData = [{
     }, {
       "index": "c",
       "answer": "wolno, ale jest to praktykowane głównie w przypadku emisji cyfrowych",
-      "isCorrect": false
+      "isCorrect": true
     }]
   }, {
     "id": "A6",
@@ -4869,10 +4848,10 @@ export const newKfData = [{
     "id": "A12",
     "questionImgSrc": "",
     "question": "Przez jaki okres czasu może posiadacz międzynarodowego pozwolenia amatorskiego zgodnego z zaleceniem CEPT T/R 61-01 pracować z terytorium innego kraju uznającego to zalecenie, bez konieczności uzyskiwania pozwolenia od miejscowej administracji łączności?",
-    "answers": [{"index": "a", "answer": "1 miesiąc", "isCorrect": true}, {
+    "answers": [{"index": "a", "answer": "1 miesiąc", "isCorrect": false}, {
       "index": "b",
       "answer": "90 dni",
-      "isCorrect": false
+      "isCorrect": true
     }, {"index": "c", "answer": "1 rok", "isCorrect": false}]
   }, {
     "id": "A13",
