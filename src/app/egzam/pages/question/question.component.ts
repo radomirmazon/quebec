@@ -38,7 +38,7 @@ export class QuestionComponent {
   }
 
   onSelected(a: KFAnswer) {
-    if (!this.showCorrect && !this.canGiveUp) {
+    if (!this.showCorrect && !this.canSkip) {
       this.showCorrect = true;
       this.selectedAnswer = a;
     }
