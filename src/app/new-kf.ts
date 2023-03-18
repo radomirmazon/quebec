@@ -11461,7 +11461,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "Nie, stacje mają zakaz transmisji sygnałów zbędnych, nieużytecznych, fałszywych lub wprowadzających w błąd ",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "index": "b",
@@ -11471,7 +11471,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "Nie, nie można nadawać komercyjnej muzyki oraz transmisji o charakterze religijnym",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     }
