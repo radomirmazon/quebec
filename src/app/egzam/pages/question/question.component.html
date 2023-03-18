@@ -6,7 +6,7 @@
       <br/>
     </div>
     <br/>
-    <div mat-raised-button *ngFor="let a of question.answers" class="answer-button">
+    <div mat-raised-button *ngFor="let a of answers" class="answer-button">
       <button mat-raised-button (click)="onSelected(a)"
               [ngClass]="{'correct': a['isCorrect'] && showCorrect, 'incorrect': !a['isCorrect'] && showCorrect}"
       >{{a['answer']}}</button>

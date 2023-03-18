@@ -16,14 +16,18 @@ export class QuestionComponent {
   thubms: {up: number, down: number} = {up:0, down:0};
   canGiveUp = false;
   canSkip = false;
+  answers: KFAnswer[];
 
   constructor(@Inject(MAT_DIALOG_DATA) public data: {question: KF},
               public dialogRef: MatDialogRef<QuestionComponent>,
               private storage: BoxStorage) {
     this.question = data.question;
+    this.answers = this.getRandomAnswers(data.question.answers);
     this.thubms = storage.getThumbs(data.question.id);
     setTimeout(() => {
-      this.canGiveUp = true;
+      if (!this.selectedAnswer) {
+        this.canGiveUp = true;
+      }
     }, 5000);
   }
 
@@ -32,7 +36,7 @@ export class QuestionComponent {
   }
 
   onSelected(a: KFAnswer) {
-    if (!this.showCorrect) {
+    if (!this.showCorrect && !this.canGiveUp) {
       this.showCorrect = true;
       this.selectedAnswer = a;
     }
@@ -55,5 +59,23 @@ export class QuestionComponent {
       id: this.question.id,
       wasCorrect: null
     });
+  }
+
+  getRandomAnswers(array: KFAnswer[]) {
+    let currentIndex = array.length,  randomIndex;
+
+    // While there remain elements to shuffle.
+    while (currentIndex != 0) {
+
+      // Pick a remaining element.
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+
+      // And swap it with the current element.
+      [array[currentIndex], array[randomIndex]] = [
+        array[randomIndex], array[currentIndex]];
+    }
+
+    return array;
   }
 }
