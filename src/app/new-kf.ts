@@ -8316,7 +8316,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "moja częstotliwość jest…",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -8343,7 +8343,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "najpierw powinien upewnić się iż częstotliwość jest wolna i nie będzie zakłócał pracy innych użytkowników",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -8365,7 +8365,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "wszystkie powyżej",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -8382,7 +8382,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "zawołanie znakiem wołanej stacji a następnie swoim",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -8399,7 +8399,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "podaniu w przerwie nadawania innych korespondentów swojego znaku",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -8426,7 +8426,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "spróbować rozwiązać problem zakłóceń z innymi stacjami w sposób akceptowalny dla obu stron z poszanowaniem norm społecznych",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -8448,7 +8448,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "potwierdzić że słyszymy stację wołającą o pomoc oraz ustalić jakiej pomocy potrzebuje",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -8465,7 +8465,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "górna wstęga boczna",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -8492,7 +8492,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "dolna wstęga boczna",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -8509,7 +8509,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "przejdź na częstotliwość, zmień częstotliwość",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -8541,7 +8541,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "mam zakłócenia od innych stacji",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -8558,7 +8558,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "mam zakłócenia atmosferyczne",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -8575,7 +8575,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "siła twoich sygnałów waha się",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -8602,7 +8602,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "jestem gotów do pracy, jestem czynny w eterze",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -8629,7 +8629,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "moje położenie geograficzne jest…",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -8646,7 +8646,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "zmniejsz moc, zmniejszam moc",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -8673,7 +8673,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "mam dla ciebie pilną wiadomość",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -8690,7 +8690,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "łączność, mam łączność",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -8707,7 +8707,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "potwierdzam odbiór / przyślę kartę potwierdzającą łączność",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -8734,7 +8734,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "odbiornik",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -8751,7 +8751,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "nielicencjonowany nadawca",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -8783,7 +8783,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "panna - młoda pani",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -8795,7 +8795,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "proszę powtórzyć, powtórzę, powtarzam",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -8817,7 +8817,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "na początku łączności i na życzenie korespondenta",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -8844,7 +8844,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "można, w określonych przepisami zakresach częstotliwości",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -8871,7 +8871,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "jest to kombinacja liter i cyfr stanowiąca unikalny w skali światowej identyfikator stacji amatorskiej",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -8883,7 +8883,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "jest to dziennik stacji amatorskiej zawierający informacje o korespondencji z innymi radiostacjami amatorskimi",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -8910,7 +8910,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "prowadzenie logu nie jest obowiązkowe, lecz wskazane",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -8927,7 +8927,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "czas odpowiadający południkowi zerowemu (GMT), stosowany przez radioamatorów do odnotowania w logu godz. łączności",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -8949,7 +8949,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "zbiór symboli składających się z 3 liter, zaczynających się zawsze na literę Q, którym przypisane są proste zdanie lub słowa",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -8976,7 +8976,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "skrócenia czasu nadawania informacji",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -8998,7 +8998,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "jestem zajęty, proszę nie przeszkadzać",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -9020,7 +9020,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "kończę nadawanie, wyłączam stację",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -9042,7 +9042,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "kto mnie woła",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -9059,7 +9059,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "proszę czekać",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -9086,7 +9086,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "zwiększ moc, zwiększam moc",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -9108,7 +9108,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "QRG",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -9125,7 +9125,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "QSY",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -9157,7 +9157,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "QRM",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -9169,7 +9169,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "QSB",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -9196,7 +9196,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "QRV",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -9223,7 +9223,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "QTH",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -9245,7 +9245,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "QRP",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -9262,7 +9262,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "QTC",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -9279,7 +9279,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "QSL",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -9317,132 +9317,132 @@ export const newKfData = [{
     },
     {
       "id": "YYA47",
-      "questionImgSrc": "https://hackerspacekrk.github.io/pytania-egzaminacyjne/ilustracje/ CFM?",
-      "question": "Co oznaczają skróty slangu radioamatorskiego: BAND",
+      "questionImgSrc": "",
+      "question": "Co oznaczają skróty slangu radioamatorskiego: BAND; CFM?",
       "answers": [
         {
           "index": "a",
-          "answer": "",
-          "isCorrect": false
+          "answer": "pasmo; potwierdzam",
+          "isCorrect": true
         },
         {
           "index": "b",
-          "answer": "pasmo",
+          "answer": "zakres; godzina",
           "isCorrect": false
         },
         {
           "index": "c",
-          "answer": " potwierdzam",
+          "answer": "raport; popołudnie",
           "isCorrect": false
         }
       ]
     },
     {
       "id": "YYA48",
-      "questionImgSrc": "https://hackerspacekrk.github.io/pytania-egzaminacyjne/ilustracje/ CALL?",
-      "question": "Co oznaczają skróty slangu radioamatorskiego: BK",
+      "questionImgSrc": "",
+      "question": "Co oznaczają skróty slangu radioamatorskiego: BK; CALL?",
       "answers": [
         {
           "index": "a",
-          "answer": "",
+          "answer": "później; kalibrator",
           "isCorrect": false
         },
         {
           "index": "b",
-          "answer": "później",
-          "isCorrect": false
+          "answer": "przerwa; znak wywoławczy",
+          "isCorrect": true
         },
         {
           "index": "c",
-          "answer": " kalibrator",
+          "answer": "stop; odebrałem wszystko",
           "isCorrect": false
         }
       ]
     },
     {
       "id": "YYA49",
-      "questionImgSrc": "https://hackerspacekrk.github.io/pytania-egzaminacyjne/ilustracje/ DX?",
-      "question": "Co oznaczają skróty slangu radioamatorskiego: BEST",
+      "questionImgSrc": "",
+      "question": "Co oznaczają skróty slangu radioamatorskiego: BEST; DX?",
       "answers": [
         {
           "index": "a",
-          "answer": "",
+          "answer": "daleki; niezły",
           "isCorrect": false
         },
         {
           "index": "b",
-          "answer": "daleki",
-          "isCorrect": false
+          "answer": "najlepszy; daleka łączność",
+          "isCorrect": true
         },
         {
           "index": "c",
-          "answer": " niezły",
+          "answer": " dobry; szybki",
           "isCorrect": false
         }
       ]
     },
     {
       "id": "YYA50",
-      "questionImgSrc": "https://hackerspacekrk.github.io/pytania-egzaminacyjne/ilustracje/ BOX?",
-      "question": "Co oznaczają skróty slangu radioamatorskiego: BCI",
+      "questionImgSrc": "",
+      "question": "Co oznaczają skróty slangu radioamatorskiego: BCI;  BOX?",
       "answers": [
         {
           "index": "a",
-          "answer": "",
-          "isCorrect": false
+          "answer": "zakłócenia odbioru radiowego; skrytka pocztowa",
+          "isCorrect": true
         },
         {
           "index": "b",
-          "answer": "zakłócenia odbioru radiowego",
+          "answer": "zakłócenia od sieciowe; radiolatarnia amatorska",
           "isCorrect": false
         },
         {
           "index": "c",
-          "answer": " skrytka pocztowa",
+          "answer": "podaj dokładny czas; zmieniam kanał radiowy",
           "isCorrect": false
         }
       ]
     },
     {
       "id": "YYA51",
-      "questionImgSrc": "https://hackerspacekrk.github.io/pytania-egzaminacyjne/ilustracje/ NAME?",
-      "question": "Co oznaczają skróty slangu radioamatorskiego: OK",
+      "questionImgSrc": "",
+      "question": "Co oznaczają skróty slangu radioamatorskiego: OK; NAME?",
       "answers": [
         {
           "index": "a",
-          "answer": "",
-          "isCorrect": false
-        },
-        {
-          "index": "b",
           "answer": "stary, nie przeszkadzaj; moje nazwisko jest",
           "isCorrect": false
         },
         {
+          "index": "b",
+          "answer": "wszystko w porządku; imię",
+          "isCorrect": true
+        },
+        {
           "index": "c",
-          "answer": "wszystko w porządku",
+          "answer": "przestrajam się; podaj adres",
           "isCorrect": false
         }
       ]
     },
     {
       "id": "YYA52",
-      "questionImgSrc": "https://hackerspacekrk.github.io/pytania-egzaminacyjne/ilustracje/ RX?",
-      "question": "Co oznaczają skróty slangu radioamatorskiego: SWR",
+      "questionImgSrc": "",
+      "question": "Co oznaczają skróty slangu radioamatorskiego: SWR; RX?",
       "answers": [
         {
           "index": "a",
-          "answer": "",
+          "answer": "pasmo w metrach; antena pionowa",
           "isCorrect": false
         },
         {
           "index": "b",
-          "answer": "pasmo w metrach",
-          "isCorrect": false
+          "answer": "współczynnik fali stojącej; odbiornik",
+          "isCorrect": true
         },
         {
           "index": "c",
-          "answer": " antena pionowa",
+          "answer": "nasłuchowiec; klucz elektroniczny",
           "isCorrect": false
         }
       ]
@@ -9454,83 +9454,83 @@ export const newKfData = [{
       "answers": [
         {
           "index": "a",
-          "answer": "YL",
-          "isCorrect": false
+          "answer": "YL; UTC",
+          "isCorrect": true
         },
         {
           "index": "b",
-          "answer": " UTC",
+          "answer": "XYL; UT",
           "isCorrect": false
         },
         {
           "index": "c",
-          "answer": "XYL",
+          "answer": "LY; TRO",
           "isCorrect": false
         }
       ]
     },
     {
       "id": "YYA54",
-      "questionImgSrc": "https://hackerspacekrk.github.io/pytania-egzaminacyjne/ilustracje/ RPT?",
-      "question": "Co oznaczają skróty slangu radioamatorskiego: PSE",
+      "questionImgSrc": "",
+      "question": "Co oznaczają skróty slangu radioamatorskiego: PSE; RPT?",
       "answers": [
         {
           "index": "a",
-          "answer": "",
-          "isCorrect": false
+          "answer": "proszę; powtórzyć, powtórzę, powtarzam",
+          "isCorrect": true
         },
         {
           "index": "b",
-          "answer": "proszę; powtórzyć, powtórzę, powtarzam",
+          "answer": "proszę; zmieniam pasmo o 10 kHz",
           "isCorrect": false
         },
         {
           "index": "c",
-          "answer": "proszę",
+          "answer": "przechodzę na inny kanał; raport podam na koniec łączności",
           "isCorrect": false
         }
       ]
     },
     {
       "id": "YYA55",
-      "questionImgSrc": "https://hackerspacekrk.github.io/pytania-egzaminacyjne/ilustracje/ UTC?",
-      "question": "Co oznaczają skróty slangu radioamatorskiego: 99",
+      "questionImgSrc": "",
+      "question": "Co oznaczają skróty slangu radioamatorskiego: 99;  UTC?",
       "answers": [
         {
           "index": "a",
-          "answer": "",
+          "answer": "pozdrawiam; czas ukraiński",
           "isCorrect": false
         },
         {
           "index": "b",
-          "answer": "pozdrawiam",
+          "answer": "ściskam dłoń; mam pilną wiadomość",
           "isCorrect": false
         },
         {
           "index": "c",
-          "answer": " czas ukraiński",
-          "isCorrect": false
+          "answer": "idź precz, przepadnij; czas uniwersalny",
+          "isCorrect": true
         }
       ]
     },
     {
       "id": "YYA56",
-      "questionImgSrc": "https://hackerspacekrk.github.io/pytania-egzaminacyjne/ilustracje/ DIRECT?",
-      "question": "Co oznaczają skróty slangu radioamatorskiego: LOG",
+      "questionImgSrc": "",
+      "question": "Co oznaczają skróty slangu radioamatorskiego: LOG; DIRECT?",
       "answers": [
         {
           "index": "a",
-          "answer": "",
+          "answer": "długa antena; dyrektor",
           "isCorrect": false
         },
         {
           "index": "b",
-          "answer": "długa antena",
-          "isCorrect": false
+          "answer": "dziennik pracy stacji; bezpośrednio",
+          "isCorrect": true
         },
         {
           "index": "c",
-          "answer": " dyrektor",
+          "answer": " długi; bezpośredni kontakt",
           "isCorrect": false
         }
       ]
@@ -9553,7 +9553,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "informacja o jakości odbieranego sygnału radiowego - czytelności i sił sygnału wyrażana w postaci cyfr",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -9570,7 +9570,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "informacja o jakości odbieranego sygnału radiowego - czytelności, siły i tonu akustycznego sygnału",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -9597,7 +9597,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "R - czytelność, S - siła sygnału",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -9609,7 +9609,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "R - czytelność, S - siła sygnału, T - ton sygnału",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -9631,7 +9631,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "skala czytelności 1-5 i skala siły sygnału 1-9",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -9653,7 +9653,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "dobrze czytelny, bardzo silny sygnał",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -9680,7 +9680,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "czytelny, słaby sygnał",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -9702,7 +9702,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "dobrze czytelny, bardzo silny sygnał, bardzo dobry ton",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -9729,7 +9729,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "czytelny, słaby sygnał, dobry ton sygnału",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -9751,7 +9751,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "zwyczajowo przyjęty obszar w granicach jednego lub dwóch województw",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -9763,7 +9763,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "umowny podział zakresów częstotliwości na segmenty przeznaczone dla poszczególnych rodzajów emisji lub kanały robocze, zalecany przez IARU",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -9795,7 +9795,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "Jest dopuszczalna ale stanowi naruszenie dobrych obyczajów panujących wśród krótkofalowców",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -9817,7 +9817,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "IARU zaleca odrębny bandplan dla każdego z trzech regionów z uwzględnieniem dla danego regionu zakresu częstotliwości",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -9829,7 +9829,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "zaleceniem IARU",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -9861,7 +9861,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "Nie przeszkadzasz, słuchasz dalej. Jeśli jest to uzasadnione - możesz dołączyć do pomocy przy organizacji łączności",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -9873,7 +9873,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "świata ",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -9927,7 +9927,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "poszukać innych chętnych do łączności gdyż ta stacja nie oczekuje teraz łączności z Europy",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -9944,7 +9944,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "Tak, transmisja sygnałów bez identyfikacji jest zabroniona",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
