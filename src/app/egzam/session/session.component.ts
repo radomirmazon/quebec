@@ -28,6 +28,7 @@ export class SessionComponent {
     let ref = this.dialog.open(QuestionComponent, {
       /*height: '400px',
       width: '600px',*/
+      minWidth: '340px',
       data: {question: data},
       disableClose: true,
       hasBackdrop: true

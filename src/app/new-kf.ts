@@ -7427,7 +7427,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "30 uciśnięć klatki piersiowej na 2 wdechy",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -7454,7 +7454,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "upewnij się, że woltomierz i przewody są przystosowane do użytku przy spodziewanych poziomach napięć",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -7503,7 +7503,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "dopuszczalne napięcie pracy",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -7520,7 +7520,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "ze względu na duże natężenie pola elektromagnetycznego mogące mieć negatywny wpływ na zdrowie",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -7547,7 +7547,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "kategorycznie nie wolno",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -7559,7 +7559,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "nie wolno",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -7581,7 +7581,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "dobre uziemienie i szczelność ekranowania",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -7608,7 +7608,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "tak",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -7625,7 +7625,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "porażenie prądem elektrycznym",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -7652,7 +7652,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "tak, może spowodować pożar lub poparzenie",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -7679,7 +7679,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "koniecznie, gdyż może ulec zniszczeniu",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -7713,7 +7713,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "tak",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -7740,7 +7740,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "ze względu na możliwość wystąpienia kondensacji pary wodnej",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -7767,7 +7767,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "nie stanowi żadnego zabezpieczenia przed energią w.cz.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -7784,7 +7784,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "można",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -7801,7 +7801,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "bezwzględnie nie wolno",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -7828,7 +7828,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "zadbać o własne bezpieczeństwo, odłączyć porażonego od prądu, sprawdzić funkcje życiowe, wezwać lekarza, w razie konieczności przeprowadzać resuscytację krążeniowo-oddechową",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -7855,7 +7855,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "gaśnicą proszkową",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -7877,7 +7877,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "żółto-zielonym",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -7899,7 +7899,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "posiadać izolowane uchwyty z nadrukowaną informacją o dopuszczalnym napięciu pracy np. 500 V",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -7916,7 +7916,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "kategorycznie nie można, grozi to zniszczeniem sprzętu i porażeniem operatora",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -7943,7 +7943,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "poniżej 10 Ω",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -7965,7 +7965,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "odłączyć zasilanie i przystąpić do gaszenia, w razie potrzeby wezwać straż pożarną",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -7987,7 +7987,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "jak w punkcie A i B i w innych sytuacjach, jeżeli zachodzi niebezpieczeństwo porażenia prądem np. przy pracach naprawczych",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -8009,7 +8009,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "spróbować usunąć obce ciało, przemywając oko wodą, a jeżeli się to nie uda skorzystać z pomocy lekarza",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -8021,7 +8021,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "ustawić miernik na najwyższy zakres pomiarowy i stopniowo zmniejszać zakres",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -8053,7 +8053,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "jak w punkcie A i B oraz zapewnić sobie obecność i ewentualną pomoc drugiej osoby",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -8070,7 +8070,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "bezwzględnie nie wolno",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -8097,7 +8097,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "mikrofonem skierowanym w stronę ust i anteną skierowaną ponad głowę",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -8114,7 +8114,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "wyłączyć zasilanie i poczekać aż rozładują się kondensatory zasilacza",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -8136,7 +8136,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "odłączenie anteny od radiostacji i połączenie anteny z uziemieniem",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -8158,7 +8158,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "bezwzględnie nie można",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -8185,7 +8185,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "nie wolno, można stosować jedynie opaski wokół komina",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -8207,7 +8207,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "jedną ręką w asyście drugiej osoby, wskazane jest również stosowanie chodnika lub obuwia izolacyjnego",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -8229,7 +8229,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "przewodem o przekroju żył, odpowiednim do pobieranej przez urządzenie mocy",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -8251,7 +8251,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "wzrostu zakłóceń i zmian impedancji kabla grożąca uszkodzeniem nadajnika",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -8268,7 +8268,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "niebieski, żółto-zielony",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -8295,7 +8295,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "ochronno-uziemiający",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     }
@@ -10348,7 +10348,7 @@ export const newKfData = [{
         },
         {
           "index": "c",
-          "answer": "służba taka może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb, którym częstotliwości mogą zostać przydzielone w późniejszym terminie, służba taka nie może powodować szkodliwych zakłóceń w pracy stacji służb pierwszej ważności, którym przydzielono częstotliwości lub mogą być przydzielone w późniejszym terminie",
+          "answer": "służba taka może żądać ochrony` przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb, którym częstotliwości mogą zostać przydzielone w późniejszym terminie, służba taka nie może powodować szkodliwych zakłóceń w pracy stacji służb pierwszej ważności, którym przydzielono częstotliwości lub mogą być przydzielone w późniejszym terminie",
           "isCorrect": true
         }
       ]
