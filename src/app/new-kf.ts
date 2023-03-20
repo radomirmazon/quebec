@@ -63,7 +63,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "20 V",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -85,7 +85,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "7 A",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -97,7 +97,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "1 V",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -129,7 +129,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "zadbać by ich napięcia były jednakowe",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -146,7 +146,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "pojemność",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -163,7 +163,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "stosunek prędkości rozchodzenia się fali elektromagnetycznej w przewodzie do prędkości światła w próżni",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -190,7 +190,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "prąd przemienny",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -207,7 +207,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "kolektor a zasilanie",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -229,7 +229,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "jego materiału, długości, przekroju i temperatury.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -256,7 +256,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "wykonany z żelaza",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -283,7 +283,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "2 V",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -305,7 +305,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "450 Ω",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -317,7 +317,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "w rezonansie stanowią tylko rezystancję",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -344,7 +344,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "325 V",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -371,7 +371,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "napięcie i prąd są zgodne w fazie",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -388,7 +388,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "zmniejszeniu wzmocnienia odbiornika podczas okresowych impulsów zakłóceń ",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -410,7 +410,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "nie można, poniżej pewnej wartości szerokości filtra sygnał staje się nieczytelny",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -427,7 +427,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "-134 dBm",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -454,7 +454,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "napięcie wynosi 12 V",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -471,7 +471,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "18 W",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -493,7 +493,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "posiada obie wstęgi boczne",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -515,7 +515,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "dyskretnej zmianie fazy sygnału",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -542,7 +542,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "metoda filtrowa, metoda fazowa, metoda Weavera",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -569,7 +569,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "CW",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -581,7 +581,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "współczynnik głębokości modulacji wynosi 100%",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -613,7 +613,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "około 31,25 Hz",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -625,7 +625,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "100 V",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -657,7 +657,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "1,4 V",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -674,7 +674,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "szybkość przesyłania informacji - 31 Bd",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -691,7 +691,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "przez wprowadzenie sumy kontrolnej CRC i ponowne wysyłanie tej samej informacji",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -718,7 +718,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "mocą w szczytach modulacji",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -745,7 +745,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "sygnał o dwukrotnie większej mocy",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -767,7 +767,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "szesnastokrotnie",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -779,7 +779,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "-13 dBm",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -806,7 +806,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "co najmniej 30 dB",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -833,7 +833,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "są równoległe do poweirzchni przewodnika i prostopadłe do jego osi",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -845,7 +845,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "odbicia sygnału od miejsca niedopasowania i straty w linii transmisyjnej",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -867,7 +867,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "36%",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -894,7 +894,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "100 W",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -916,7 +916,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "minimum 100 kHz",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -933,7 +933,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "zakres dynamiki",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -960,7 +960,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "1 A",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -982,7 +982,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "napięcie pomiędzy bramką, a źródłem",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -999,7 +999,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "filtr pasmowoprzepustowy",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -1021,7 +1021,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "duża stromość zboczy charakterystyki częstotliwościowej pozwala na uzyskanie dobrej selektywności",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -1053,7 +1053,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "ustawienie pod innym kątem do odbiornika",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -1065,7 +1065,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "A",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -1097,7 +1097,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "aby zmniejszyć zniekształcenia spowodowane nadmiernym wysterowaniem",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -1119,7 +1119,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "dwa sygnały o częstotliwości 3 MHz i 7 MHz",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -1141,7 +1141,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "selektywność",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -1158,7 +1158,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "zmniejszeniem czułości odbiornika przez mocny sygnał nadajnika rozgłośni radiowej na sąsiedniej górze",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -1175,7 +1175,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "pogorszenie stosunku sygnału do szumu",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -1202,7 +1202,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "tak, antena typu delta stroi się na kolejnych harmonicznych",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -1224,7 +1224,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "sygnały mogą być znacznie słabsze",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -1312,7 +1312,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "maksymalna użyteczna częstotliwość do komunikacji między dwoma punktami",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -1334,7 +1334,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "70 W",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -1444,7 +1444,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "om",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -1461,7 +1461,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "zależy",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -1483,7 +1483,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "nie przewodzą prądu elektrycznego",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -1515,7 +1515,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "wykonany z miedzi",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -1532,7 +1532,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "german",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -1549,7 +1549,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "oporność 120 Ω",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -1576,7 +1576,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "napięcie wynosi 12 V",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -1593,7 +1593,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "większa niż przenikalność magnetyczna powietrza",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -1615,7 +1615,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "tak",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -1642,7 +1642,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "200 kHz",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -1659,7 +1659,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "od 300 Hz do 3 kHz",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -1681,7 +1681,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "przerywaniu fali nośnej",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -1703,7 +1703,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "wąskopasmową",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -1725,7 +1725,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "12,5 kHz",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -1752,7 +1752,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "2,7 kHz",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -1774,7 +1774,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "100 W",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -1791,7 +1791,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "wzrośnie do 1000 µH",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -1813,7 +1813,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "cewka L1",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -1840,7 +1840,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "12 V",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -1862,7 +1862,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "do prostowania prądu w zasilaczach",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -1879,7 +1879,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "służące do stabilizacji napięć",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -1906,7 +1906,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "dioda pojemnościowa",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -1923,7 +1923,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "pięć elektrod",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -1950,7 +1950,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "20 Ω",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -1977,7 +1977,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "4 szt.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -1994,7 +1994,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "prostownik jednopołówkowy",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -2011,7 +2011,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "prostownik dwupołówkowy",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -2033,7 +2033,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "niskiej częstotliwości",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -2060,7 +2060,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "ma za duże napięcie wejściowe",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -2082,7 +2082,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "w klasie AB",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -2099,7 +2099,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "generator stabilizowany",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -2126,7 +2126,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "generator wzorca",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -2143,7 +2143,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "filtr wejściowy",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -2170,7 +2170,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "wzmacniacz akustyczny",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -2187,7 +2187,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "wzmacniacz w.cz.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -2209,7 +2209,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "wzmacniacz akustyczny",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -2231,7 +2231,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "filtr wejściowy",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -2258,7 +2258,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "I mieszacz",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -2275,7 +2275,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "filtr wyjściowy",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -2302,7 +2302,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "oscylator (VFO)",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -2329,7 +2329,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "wzbudnica SSB 9 MHz",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -2346,7 +2346,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "mieszacz",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -2368,7 +2368,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "ósemkowa",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -2385,7 +2385,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "dookólna",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -2407,7 +2407,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "reflektor",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -2429,7 +2429,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "wibrator",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -2456,7 +2456,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "I direktor",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -2478,7 +2478,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "II direktor",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -2505,7 +2505,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "kiedy impedancja obciążenia nie jest zgodna z impedancją falową kabla",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -2522,7 +2522,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "reflektometr",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -2539,7 +2539,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "zwarcie lub przerwa w kablu",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -2566,7 +2566,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "baluna 1:1 (symetryzatora)",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -2593,7 +2593,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "ma bardzo duży wpływ",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -2605,7 +2605,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "cyklem słonecznym",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -2627,7 +2627,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "zasięg wyznaczony linią horyzontu radiowego",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -2659,7 +2659,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "prowadzeniu fal przez dukty powstałe z warstw ciepłego i zimnego powietrza",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -2671,7 +2671,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "z wykorzystaniem odbicia sygnału od Księżyca",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -2693,7 +2693,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "poprzez pomiar napięcia za pomocą sondy w.cz. na oporze sztucznej anteny 50 om i obliczenie",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -2725,7 +2725,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "za pomocą reflektometru",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -2742,7 +2742,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "przez stosowanie filtrów sieciowych, ekranowanie urządzeń i odpowiednią konstrukcję urządzeń",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -2769,7 +2769,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "liniowość stopnia mocy (PA), filtr wyjściowy, uziemienie radiostacji",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -2791,7 +2791,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "uziemiamy obudowę i włączamy filtr sieciowy w zasilanie",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -2803,7 +2803,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "Urząd Komunikacji Elektronicznej",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -2835,7 +2835,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "spadek wynosi 2 V",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -2857,7 +2857,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "opornik 10 Ω",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -2869,7 +2869,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "18 W",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -2891,7 +2891,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "100 V",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -2918,7 +2918,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "0,125 W",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -2940,7 +2940,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "50 Hz",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -2967,7 +2967,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "141,4 V",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -2984,7 +2984,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "240 V",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -3011,7 +3011,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "1,4 V",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -3023,7 +3023,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "ekranów z blach",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -3055,7 +3055,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "ze względu na mniejsze straty wynikające z prądów wirowych",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -3072,7 +3072,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "składowa elektryczna i składowa magnetyczna",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -3089,7 +3089,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "80 m",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -3121,7 +3121,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "nie zawiera w ogóle harmonicznych",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -3143,7 +3143,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "najwyższych częstotliwości modulujących",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -3165,7 +3165,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "modulację z przesuwem częstotliwości",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -3177,7 +3177,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "2 W",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -3204,7 +3204,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "o 20 dB",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -3226,7 +3226,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "40 %",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -3253,7 +3253,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "od 950 om do 1050 Ω",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -3270,7 +3270,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "1 W",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -3287,7 +3287,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "tak, można",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -3319,7 +3319,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "10 razy",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -3331,7 +3331,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "1 mA",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -3380,7 +3380,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "równolegle",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -3407,7 +3407,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "możemy, stosując kondensator na napięcie 300 V",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -3446,7 +3446,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "100 V",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -3463,7 +3463,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "rzeczywistą omową",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -3490,7 +3490,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "100 pF",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -3517,7 +3517,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "140 kHz",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -3539,7 +3539,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "prostownik mostkowy dwupołówkowy",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -3556,7 +3556,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "17,7 V",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -3578,7 +3578,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "20 dB",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -3595,7 +3595,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "wzmacniaczem selektywnym",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -3617,7 +3617,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "filtr dolnoprzepustowy",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -3639,7 +3639,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "jest kondensatorem filtrującym prądy w.cz.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -3666,7 +3666,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "musimy wytworzyć słyszalne dudnienia z niemodulowanym sygnałem CW",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -3688,7 +3688,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "powyżej wstęgi LSB",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -3705,7 +3705,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "nie",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -3732,7 +3732,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "spełnienie warunku amplitudy i fazy",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -3749,7 +3749,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "zastosowaniu specjalnych układów korygujących częstotliwość",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -3776,7 +3776,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "cyfrowe przestrajanie obwodu rezonansowego ",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -3798,7 +3798,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "dzielnik",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -3820,7 +3820,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "komparator fazy",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -3837,7 +3837,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "dzielnik wzorca",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -3869,7 +3869,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "wzmacniacz błędu",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -3886,7 +3886,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "mieszacz",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -3908,7 +3908,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "wzmacniacz pośredniej cz.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -3935,7 +3935,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "detektor AM",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -3957,7 +3957,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "heterodyna",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -3974,7 +3974,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "I mieszacz",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -3996,7 +3996,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "wzmacniacz I pośredniej cz.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -4023,7 +4023,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "II mieszacz",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -4035,7 +4035,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "II heterodyna stała",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -4057,7 +4057,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "filtr przełączany II p.cz.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -4084,7 +4084,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "wzmacniacz II pośredniej cz.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -4111,7 +4111,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "detektor AM, CW, SSB",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -4128,7 +4128,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "BFO",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -4145,7 +4145,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "I heterodyna strojona",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -4177,7 +4177,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "mieszacz zrównoważony ",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -4194,7 +4194,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "wzmacniacz akustyczny",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -4221,7 +4221,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "heterodyna",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -4233,7 +4233,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "wzmacniacz w.cz.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -4260,7 +4260,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "wzmacniacz I pośredniej cz. 10,7 MHz",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -4287,7 +4287,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "II mieszacz",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -4304,7 +4304,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "wzmacniacz II p.cz. 455 kHz",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -4321,7 +4321,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "detektor FM",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -4348,7 +4348,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "wzmacniacz akustyczny",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -4370,7 +4370,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "blokada szumów",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -4397,7 +4397,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "II heterodyna stała",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -4409,7 +4409,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "I heterodyna kwarcowa",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -4431,7 +4431,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "zdolność do wyodrębnienia pożądanego sygnału",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -4463,7 +4463,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "oscylator (VFO)",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -4485,7 +4485,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "separator",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -4502,7 +4502,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "wzmacniacz mocy (PA)",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -4524,7 +4524,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "separator",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -4541,7 +4541,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "filtr pasmowy 3,5 - 14 MHz",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -4563,7 +4563,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "wzmacniacz sterujący",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -4585,7 +4585,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "wzmacniacz mocy (PA)",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -4612,7 +4612,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "filtr wyjściowy",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -4634,7 +4634,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "filtr wyjściowy",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -4656,7 +4656,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "maleje.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -4678,7 +4678,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "źródła izotropowego",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -4695,7 +4695,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "e.i.r.p. jest większe o 2,15 dB od e.r.p.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -4727,7 +4727,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "12 dBd",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -4739,7 +4739,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "25%",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -4761,7 +4761,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "od 100 m do 10 m",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -4810,7 +4810,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "o maksymalnej częstotliwości do łączności na danej trasie",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -4827,7 +4827,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "strefa bez odbioru leżąca pomiędzy końcem fali przyziemnej a powrotem fali odbitej od jonosfery",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -4849,7 +4849,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "oscyloskopem",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -4871,7 +4871,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "wystarczy, z pewnym zapasem",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -4937,7 +4937,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "stabilność częstotliwości",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -5035,7 +5035,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "oba wyżej wymienione",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -5069,7 +5069,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "10 m ",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -5091,7 +5091,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "mniejsza niż w próżni",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -5118,7 +5118,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "pionową",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -5140,7 +5140,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "240 V",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -5157,7 +5157,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "20 ms",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -5189,7 +5189,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "nieskończonej",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -5233,7 +5233,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "kluczowanie częstotliwości",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -5277,7 +5277,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "20 W",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -5316,7 +5316,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "100 W",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -5377,7 +5377,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "1 W",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -5399,7 +5399,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "polu elektrycznym",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -5426,7 +5426,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "100 razy",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -5443,7 +5443,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "prąd wyprzedza napięcie w fazie o 90 stopni",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -5541,7 +5541,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "stosowanie jej jako elementu ochronnego przed przepięciem",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -5553,7 +5553,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "szybkie przełączanie i rozpraszanie dużych chwilowych mocy",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -5580,7 +5580,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "nie",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -5602,7 +5602,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "ujemne (niższy potencjał do bazy)",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -5629,7 +5629,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "prądem i napięciem",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -5712,7 +5712,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "równolegle",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -5739,7 +5739,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "możemy, stosując kondensator na napięcie 300 V",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -5751,7 +5751,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "90 μH",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -5805,7 +5805,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "140 kHz",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -5949,7 +5949,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "kluczowania fazy (PSK)",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -5971,7 +5971,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "licznik",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -6015,7 +6015,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "użycie przetwornika cyfrowo-analogowego",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -6037,7 +6037,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "brak częstotliwości pośredniej (jest równa 0)",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -6059,7 +6059,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "maksymalny odchył od częstotliwości nośnej",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -6103,7 +6103,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "wibratora i elementu zasilanego pasożytniczo",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -6125,7 +6125,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "osiągnięto bardzo dobre dopasowanie linii zasilającej do nadajnika",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -6152,7 +6152,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "reaktancja jest równa 0 Ω",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -6218,7 +6218,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "dipol półfalowy",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -6284,7 +6284,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "Anteny izotropowej",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -6311,7 +6311,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "12 dBd",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -6350,7 +6350,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "źródła izotropowego",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -6521,7 +6521,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "zerową",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -6543,7 +6543,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "poziom zakłóceń lokalnych",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -6707,7 +6707,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "częstotliwość powyżej której fala nie podlega ugięciu w jonosferze w kierunku ziemi",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -6724,7 +6724,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "co około 11 lat przy minimalnej aktywności słonecznej",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -6746,7 +6746,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "pogorszenie propagacji w pasmach KF ",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -6763,7 +6763,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "dla danej trasy łączności",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -6834,7 +6834,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "wielodrogową propagacją i zmianą tłumienia na trasie",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -6922,7 +6922,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "łącznościami z wykorzystaniem zorzy polarnej ",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -6961,7 +6961,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "odbicia sygnału od Księżyca",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -6988,7 +6988,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "na falach ultrakrótkich przy pomocy anten kierunkowych",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -7071,7 +7071,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "Z racji na duże straty mocy w linii zasilającej",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -7115,7 +7115,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "minimalnej mocy nadajnika, niezbędnej dla danej łączności",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -7142,7 +7142,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "woltomierz",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -7169,7 +7169,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "rezystancję dopasowaną do mierzonego prądu i parametrów ustroju pomiarowego",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
