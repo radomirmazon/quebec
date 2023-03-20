@@ -9279,12 +9279,12 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "QSL",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "index": "b",
           "answer": "QSO",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -9301,7 +9301,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "QSL",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
