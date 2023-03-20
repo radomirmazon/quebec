@@ -9,7 +9,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "szkło",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -36,7 +36,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "szeregowym",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -7481,7 +7481,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "należy unikać wszelkich ostrych krawędzi i zakrętów",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -7691,7 +7691,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "poparzeniem",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -9900,7 +9900,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "Może podawać raporty na ucho i poinformować o tym korespondenta",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
