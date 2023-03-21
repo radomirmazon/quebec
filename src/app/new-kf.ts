@@ -3749,7 +3749,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "zastosowaniu specjalnych układów korygujących częstotliwość",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "index": "b",
@@ -3759,7 +3759,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "stabilizacji temperatury oscylatora",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
