@@ -6724,12 +6724,12 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "co około 11 lat przy minimalnej aktywności słonecznej",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "index": "c",
           "answer": "co około 11 lat przy maksymalnej aktywności słonecznej",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
