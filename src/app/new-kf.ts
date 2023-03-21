@@ -10801,7 +10801,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "za pomocą adresu ",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "index": "b",
@@ -10811,7 +10811,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "adresem lub, za pomocą współrzędnych geograficznych",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
