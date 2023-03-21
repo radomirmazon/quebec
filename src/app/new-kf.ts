@@ -5426,12 +5426,12 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "100 razy",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "index": "c",
           "answer": "10 razy",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
