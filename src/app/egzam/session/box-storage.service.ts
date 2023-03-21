@@ -88,9 +88,10 @@ export class BoxStorage {
       .filter((i, index) => selector.filter(a => a===index).length > 0);
   }
 
-  getRandomQuestion(divisionName: string, boxIndex: number): KF {
+  getRandomQuestion(divisionName: string, boxIndex: number, withoutIds: string[]): KF | undefined {
     const qs = this.storage.div.filter(d=> d.title === divisionName)[0].item.filter(i => i.box === boxIndex);
-    const randomId =  qs[Math.floor(Math.random()*qs.length)].id;
+    const excludeQs = qs.filter(q => withoutIds.filter(exId => exId === q.id).length===0);
+    const randomId =  excludeQs[Math.floor(Math.random()*excludeQs.length)].id;
     return this.getQ(divisionName).q.filter((q: KF)=> q.id === randomId)[0];
   }
 

@@ -18,8 +18,6 @@ export class QuestionComponent {
   canSkip = false;
   answers: KFAnswer[];
 
-  shownQuestionIds: string[] = []
-
   constructor(@Inject(MAT_DIALOG_DATA) public data: {question: KF},
               public dialogRef: MatDialogRef<QuestionComponent>,
               private storage: BoxStorage) {

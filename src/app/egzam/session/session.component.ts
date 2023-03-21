@@ -21,13 +21,13 @@ export class SessionComponent {
   division: string | null = null;
   boxIndex: number | null = null;
 
+  shownQuestionIds: string[] = []
+
   constructor(public dialog: MatDialog, public storage: BoxStorage) {
   }
 
   openQuestion(data: KF) {
     let ref = this.dialog.open(QuestionComponent, {
-      /*height: '400px',
-      width: '600px',*/
       minWidth: '340px',
       data: {question: data},
       disableClose: true,
@@ -48,6 +48,7 @@ export class SessionComponent {
 
   onSelected($event: { division: string, boxIndex: number }) {
     this.state = STATE_RUNNIG;
+    this.shownQuestionIds = [];
     this.division = $event.division;
     this.boxIndex = $event.boxIndex;
     this.drawQuestion();
@@ -56,7 +57,14 @@ export class SessionComponent {
   private drawQuestion() {
     if (this.state === STATE_RUNNIG) {
       // @ts-ignore
-      this.openQuestion(this.storage.getRandomQuestion(this.division, this.boxIndex));
+      const question = this.storage.getRandomQuestion(this.division, this.boxIndex, this.shownQuestionIds);
+      if (question) {
+        this.shownQuestionIds.push(question.id);
+        this.openQuestion(question);
+      } else {
+        this.state = STATE_IDLE;
+        this.shownQuestionIds = [];
+      }
     }
   }
 
