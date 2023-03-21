@@ -22,6 +22,9 @@ import {MatIconModule} from "@angular/material/icon";
 import {Egzam2Component} from "./egzam/generator/egzam2.component";
 import {MatTabsModule} from "@angular/material/tabs";
 import {ClearSessionComponent} from "./egzam/pages/clear-session/clear-session.component";
+import {SettingsComponent} from "./egzam/pages/settings/settings.component";
+import {MatPseudoCheckboxModule} from "@angular/material/core";
+import {MatCheckboxModule} from "@angular/material/checkbox";
 
 @NgModule({
   declarations: [
@@ -35,12 +38,13 @@ import {ClearSessionComponent} from "./egzam/pages/clear-session/clear-session.c
     BoxComponent,
     DivisionComponent,
     DirectiveElevation,
-    ClearSessionComponent
+    ClearSessionComponent,
+    SettingsComponent
   ],
   imports: [
     BrowserModule, FormsModule, HttpClientModule, BrowserAnimationsModule,
     AngularWebStorageModule, MatDialogModule, MatButtonModule, MatCardModule,
-    FlexLayoutModule, MatIconModule, MatTabsModule
+    FlexLayoutModule, MatIconModule, MatTabsModule, MatCheckboxModule
   ],
   providers: [
     QuestionComponent,

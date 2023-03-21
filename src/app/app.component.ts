@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {MatDialog} from "@angular/material/dialog";
+import {SettingsComponent} from "./egzam/pages/settings/settings.component";
 
 @Component({
   selector: 'app-root',
@@ -44,6 +46,9 @@ export class AppComponent {
     'Ź': ['Zulu', 'Źrebak', 'Zebra', 'Zebra', 'Zinajda', 'Zuzana', 'Zeppelin', 'Zanzibar', 'Zelanda', 'Zelanda']
   }
 
+  constructor(public dialog: MatDialog) {
+  }
+
   set name(n: string) {
     this._name = n.toUpperCase();
     this.calculate()
@@ -77,6 +82,13 @@ export class AppComponent {
 
   containsOnlyNumbers(s: string) {
     return /^\d+$/.test(s);
+  }
+
+  onSettings() {
+    this.dialog.open(SettingsComponent, {
+      disableClose: false,
+      hasBackdrop: true
+    });
   }
 }
 

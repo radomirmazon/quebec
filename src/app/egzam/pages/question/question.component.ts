@@ -2,6 +2,7 @@ import {Component, Inject, Input, Output} from "@angular/core";
 import {KF, KFAnswer} from "../../generator/egzam.component";
 import {MAT_DIALOG_DATA, MatDialogRef} from "@angular/material/dialog";
 import {BoxStorage} from "../../session/box-storage.service";
+import {SettingsService} from "../settings/settings.service";
 
 @Component({
   selector: 'kf-question',
@@ -20,7 +21,8 @@ export class QuestionComponent {
 
   constructor(@Inject(MAT_DIALOG_DATA) public data: {question: KF},
               public dialogRef: MatDialogRef<QuestionComponent>,
-              private storage: BoxStorage) {
+              private storage: BoxStorage,
+              private settings: SettingsService) {
     this.question = data.question;
     this.answers = this.getRandomAnswers(data.question.answers);
     this.thubms = storage.getThumbs(data.question.id);
@@ -62,6 +64,9 @@ export class QuestionComponent {
   }
 
   getRandomAnswers(array: KFAnswer[]) {
+    if (!this.settings.getRandomAnswer()) {
+      return array;
+    }
     let currentIndex = array.length,  randomIndex;
 
     // While there remain elements to shuffle.

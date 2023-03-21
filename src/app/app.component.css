@@ -1,0 +1,6 @@
+.settings {
+  position: absolute;
+  right: 8px;
+  top: 4px;
+  z-index: 9000;
+}
