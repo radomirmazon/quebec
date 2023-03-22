@@ -8,8 +8,9 @@ const SETTINGS_KEY = 'settings';
 })
 export class SettingsService{
 
-  private settings: { randomAnswer: boolean } = {
-    randomAnswer: true
+  private settings: { randomAnswer: boolean, randomQuestion: boolean } = {
+    randomAnswer: true,
+    randomQuestion: true
   };
 
   constructor(private local: LocalStorageService) {
@@ -17,6 +18,9 @@ export class SettingsService{
     if (!s) {
       this.store();
     } else {
+      if (s.randomQuestion === undefined) {
+        s.randomQuestion = true;
+      }
       this.settings = s;
     }
   }
@@ -28,6 +32,15 @@ export class SettingsService{
 
   getRandomAnswer() {
     return this.settings.randomAnswer;
+  }
+
+  setRandomQuestion(val: boolean) {
+    this.settings.randomQuestion = val;
+    this.store();
+  }
+
+  getRandomQuestion() {
+    return this.settings.randomQuestion;
   }
 
   private store() {

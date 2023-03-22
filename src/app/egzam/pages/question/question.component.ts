@@ -18,6 +18,7 @@ export class QuestionComponent {
   canGiveUp = false;
   canSkip = false;
   answers: KFAnswer[];
+  showExplanation = false;
 
   constructor(@Inject(MAT_DIALOG_DATA) public data: {question: KF},
               public dialogRef: MatDialogRef<QuestionComponent>,
@@ -82,5 +83,9 @@ export class QuestionComponent {
     }
 
     return array;
+  }
+
+  onShowExplanation() {
+    this.showExplanation = true;
   }
 }

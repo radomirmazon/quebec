@@ -12,7 +12,12 @@
       >{{a['answer']}}</button>
     </div>
   </mat-card-content>
-
+  <div class="explanation">
+    <mat-icon (click)="onShowExplanation()" *ngIf="!showExplanation">info</mat-icon>
+    <div *ngIf="question.explanation && showExplanation">
+      Wyjaśnienie: {{question.explanation}}
+    </div>
+  </div>
 
   <mat-card-footer class="buttons-container thumbs-container">
     <button mat-flat-button (click)="onClose()">Zamknij</button>

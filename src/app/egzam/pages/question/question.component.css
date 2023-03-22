@@ -27,3 +27,7 @@
 .thumbs-container {
   position: relative;
 }
+
+.explanation {
+  text-align: right;
+}

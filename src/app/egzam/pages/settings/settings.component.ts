@@ -6,7 +6,10 @@ import {SettingsService} from "./settings.service";
 @Component({
   template: `
     <mat-card-content>
-      <mat-checkbox [checked]="randomAnswer" (change)="onSelect($event)">Czy losować kolejność wyświetlanych pytań (ABC)</mat-checkbox>
+      <mat-checkbox [checked]="randomAnswer" (change)="onSelectA($event)">Czy losować kolejność wyświetlanych odpowiedzi (ABC)</mat-checkbox>
+    </mat-card-content>
+    <mat-card-content>
+      <mat-checkbox [checked]="randomAnswer" (change)="onSelectQ($event)">Czy losować kolejność pytań pobieranych z pudełka</mat-checkbox>
     </mat-card-content>
     <mat-card-footer>
       <button mat-flat-button (click)="onClose()">Zamknij</button>
@@ -25,7 +28,11 @@ export class SettingsComponent {
     this.ref.close();
   }
 
-  onSelect($event: MatCheckboxChange) {
+  onSelectQ($event: MatCheckboxChange) {
+    this.settings.setRandomQuestion($event.checked);
+  }
+
+  onSelectA($event: MatCheckboxChange) {
     this.settings.setRandomAnswer($event.checked);
   }
 }

@@ -86,6 +86,7 @@ export class EgzamComponent {
 export interface KF {
   id: string,
   answers: KFAnswer[],
+  explanation?: string,
   question: string,
   questionImgSrc?: string
 }

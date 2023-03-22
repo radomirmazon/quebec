@@ -1246,7 +1246,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "stosunek mocy wypromieniowanej w kierunku głównego listka promieniowania do kierunku przeciwnego",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -3503,6 +3503,7 @@ export const newKfData = [{
       "id": "A160",
       "questionImgSrc": "",
       "question": "Obwód rezonansowy na częstotliwość 14 MHz ma dobroć Q=100. Jaka jest szerokość pasma tego obwodu rezonansowego?",
+      "explanation": "https://pl.wikipedia.org/wiki/Dobro%C4%87",
       "answers": [
         {
           "index": "a",
@@ -3512,12 +3513,12 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "14 kHz",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
           "answer": "140 kHz",
-          "isCorrect": true
+          "isCorrect": false
         }
       ]
     },

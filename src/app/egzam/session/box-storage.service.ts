@@ -4,6 +4,7 @@ import {SESSION_KEY} from "./session.component";
 import {kfData} from "../../kf";
 import {KF} from "../generator/egzam.component";
 import {newKfData} from "../../new-kf";
+import {SettingsService} from "../pages/settings/settings.service";
 
 interface BoxStorageInterface {
   div: {
@@ -30,7 +31,7 @@ export class BoxStorage {
 
   public canClear = true;
 
-  constructor(private local: LocalStorageService) {
+  constructor(private local: LocalStorageService, private settings: SettingsService) {
     const s = this.local.get(SESSION_KEY);
     if (!s || s.div.length !== 8) {
       this.init();
@@ -91,7 +92,8 @@ export class BoxStorage {
   getRandomQuestion(divisionName: string, boxIndex: number, withoutIds: string[]): KF | undefined {
     const qs = this.storage.div.filter(d=> d.title === divisionName)[0].item.filter(i => i.box === boxIndex);
     const excludeQs = qs.filter(q => withoutIds.filter(exId => exId === q.id).length===0);
-    const randomId =  excludeQs[Math.floor(Math.random()*excludeQs.length)].id;
+    const randomId =  this.settings.getRandomQuestion() ?
+      excludeQs[Math.floor(Math.random()*excludeQs.length)].id : excludeQs[0].id;
     return this.getQ(divisionName).q.filter((q: KF)=> q.id === randomId)[0];
   }
 
