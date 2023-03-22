@@ -7209,7 +7209,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "woltomierz jest przystosowany do częstotliwości 50Hz, a w obwodzie jest sygnał w.cz.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
