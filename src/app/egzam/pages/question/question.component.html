@@ -12,7 +12,7 @@
       >{{a['answer']}}</button>
     </div>
   </mat-card-content>
-  <div class="explanation">
+  <div class="explanation" *ngIf="question.explanation">
     <mat-icon (click)="onShowExplanation()" *ngIf="!showExplanation">info</mat-icon>
     <div *ngIf="question.explanation && showExplanation">
       Wyjaśnienie: {{question.explanation}}
