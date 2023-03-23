@@ -3419,7 +3419,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "90 µH",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -4630,12 +4630,12 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "oscylator (VFO) 5-5,5 MHz",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
           "answer": "filtr wyjściowy",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "index": "c",
@@ -4894,7 +4894,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "od 300 Hz do 3 kHz",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -5251,7 +5251,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "zmniejsza się",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -5356,7 +5356,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "filtr sprzętowy",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -5484,6 +5484,7 @@ export const newKfData = [{
       "id": "A250",
       "questionImgSrc": "",
       "question": "Stwierdzono, że wpływające do układu napięcie wyprzedza w fazie prąd. Układ ten ma charakter:",
+      "explanation": "Prawo CIUL'a  w kondensatorze I wyprzedza U i od tyłu w L to U wyprzedza I",
       "answers": [
         {
           "index": "a",
@@ -5498,7 +5499,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "indukcyjny",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -5638,6 +5639,7 @@ export const newKfData = [{
       "id": "A257",
       "questionImgSrc": "",
       "question": "We wzmacniaczu tranzystorowym w układzie wspólnej bazy, sygnał wejściowy podajemy pomiędzy:",
+      "explanation": "https://www.electronics-tutorials.ws/pl/tranzystor/tranzystor-bipolarny.html",
       "answers": [
         {
           "index": "a",
@@ -5647,7 +5649,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "emiter i bazę",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -5872,7 +5874,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "Ustalenie punktu pracy",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
