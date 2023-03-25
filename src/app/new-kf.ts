@@ -1263,7 +1263,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "stosunek prędkości rozchodzenia się fali w kablu do prędkości rozchodzenia w próżni",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -1285,7 +1285,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "wyższa liczba plam słonecznych generalnie wskazuje na większe prawdopodobieństwo dobrej propagacji na wyższych częstotliwościach",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -1378,7 +1378,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "dokładność generatora wzorcowego",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -5918,7 +5918,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "pętli synchronizacji fazy",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -5996,7 +5996,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "Łatwa realizacja programowej demodulacji dla dowolnej emisji",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -6512,7 +6512,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "ten fragment kabla nie nadaje się do użytku, można wyciąć uszkodzony fragment oraz wykorzystać pozostałe odcinki przewodu",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
