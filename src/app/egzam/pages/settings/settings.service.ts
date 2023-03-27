@@ -6,11 +6,12 @@ const SETTINGS_KEY = 'settings';
 @Injectable({
   providedIn: "root"
 })
-export class SettingsService{
+export class SettingsService {
 
-  private settings: { randomAnswer: boolean, randomQuestion: boolean } = {
+  private settings: { randomAnswer: boolean, randomQuestion: boolean, ka: boolean } = {
     randomAnswer: true,
-    randomQuestion: true
+    randomQuestion: true,
+    ka: true
   };
 
   constructor(private local: LocalStorageService) {
@@ -21,6 +22,9 @@ export class SettingsService{
       if (s.randomQuestion === undefined) {
         s.randomQuestion = true;
       }
+      if (s.ka === undefined) {
+        s.ka = true;
+      }
       this.settings = s;
     }
   }
@@ -30,20 +34,21 @@ export class SettingsService{
     this.store();
   }
 
-  getRandomAnswer() {
-    return this.settings.randomAnswer;
-  }
-
   setRandomQuestion(val: boolean) {
     this.settings.randomQuestion = val;
     this.store();
   }
 
-  getRandomQuestion() {
-    return this.settings.randomQuestion;
-  }
-
   private store() {
     this.local.set(SETTINGS_KEY, this.settings, 0);
+  }
+
+  setKA(ka: boolean) {
+    this.settings.ka = ka;
+    this.store();
+  }
+
+  getSettings() {
+    return this.settings;
   }
 }

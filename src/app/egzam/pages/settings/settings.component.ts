@@ -6,22 +6,25 @@ import {SettingsService} from "./settings.service";
 @Component({
   template: `
     <mat-card-content>
-      <mat-checkbox [checked]="randomAnswer" (change)="onSelectA($event)">Czy losować kolejność wyświetlanych odpowiedzi (ABC)</mat-checkbox>
+      <mat-checkbox [checked]="settings.getSettings().randomAnswer" (change)="onSelectA($event)">Czy losować kolejność wyświetlanych odpowiedzi (ABC)</mat-checkbox>
     </mat-card-content>
     <mat-card-content>
-      <mat-checkbox [checked]="randomAnswer" (change)="onSelectQ($event)">Czy losować kolejność pytań pobieranych z pudełka</mat-checkbox>
+      <mat-checkbox [checked]="settings.getSettings().randomQuestion" (change)="onSelectQ($event)">Czy losować kolejność pytań pobieranych z pudełka</mat-checkbox>
     </mat-card-content>
+    <!--mat-card-content>
+      <mat-checkbox [checked]="settings.getSettings().ka" (change)="onSelectKA($event)">
+        <span *ngIf="settings.getSettings().ka">Pokazuję wszystkie pytania</span>
+        <span *ngIf="!settings.getSettings().ka">Pokazuję tylko pytania na które znam odpowiedź</span></mat-checkbox>
+    </mat-card-content-->
     <mat-card-footer>
-      <button mat-flat-button (click)="onClose()">Zamknij</button>
+      <button mat-flat-b0tton (click)="onClose()">Zamknij</button>
     </mat-card-footer>
   `
 })
 export class SettingsComponent {
 
-  randomAnswer;
+  constructor(private ref: MatDialogRef<SettingsComponent>, public settings: SettingsService) {
 
-  constructor(private ref: MatDialogRef<SettingsComponent>, private settings: SettingsService) {
-    this.randomAnswer = this.settings.getRandomAnswer();
   }
 
   onClose() {
@@ -34,5 +37,9 @@ export class SettingsComponent {
 
   onSelectA($event: MatCheckboxChange) {
     this.settings.setRandomAnswer($event.checked);
+  }
+
+  onSelectKA($event: MatCheckboxChange) {
+    this.settings.setKA($event.checked);
   }
 }

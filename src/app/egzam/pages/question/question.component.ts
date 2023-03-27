@@ -65,7 +65,7 @@ export class QuestionComponent {
   }
 
   getRandomAnswers(array: KFAnswer[]) {
-    if (!this.settings.getRandomAnswer()) {
+    if (!this.settings.getSettings().randomAnswer) {
       return array;
     }
     let currentIndex = array.length,  randomIndex;
