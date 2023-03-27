@@ -1395,7 +1395,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "utrzymanie jak najkrótszego połączenia uziemienia sondy",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -4794,7 +4794,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "F",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -5048,7 +5048,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "częstotliwość i amplitudę sygnału",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -6194,7 +6194,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "7 i 21 MHz",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -6806,6 +6806,7 @@ export const newKfData = [{
       "id": "A310",
       "questionImgSrc": "",
       "question": "Pewien krótkofalowiec zawsze kiedy wyjeżdżał na działkę pod Radomiem zawieszał w tym samym miejscu dipol półfalowy na wysokości 15 m nad poziomem gruntu. Niestety pewnego razu ze względu na uszkodzenie drabiny udało mu się powiesić go tylko na wysokości 3m. Zauważył że słyszy znacznie lepiej stacje polskie ale niestety przestał słyszeć stacje francuskie. Czym spowodowane było to zjawisko?",
+      "explanation": "https://hf5l.pl/wlasciwosci-dipola-polfalowego-nad-ziemia/",
       "answers": [
         {
           "index": "a",
@@ -6864,7 +6865,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "prowadzeniu fal przez dukty powstałe z warstw ciepłego i zimnego powietrza",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -7294,7 +7295,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "Obecność i siłę sygnałów harmonicznych i niepożądanych w sygnale nadajnika",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -7321,7 +7322,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "blokowanie odbiornika przez bardzo silne sygnały, także spoza pasm amatorskich",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -7338,7 +7339,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "intermodulacja w obwodach wejściowych odbiornika FM",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -10017,7 +10018,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "kategorycznie nie wolno",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "index": "c",
@@ -10770,7 +10771,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "50 W",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },

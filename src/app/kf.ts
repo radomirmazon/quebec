@@ -1024,7 +1024,7 @@ export const kfData = [{
       "isCorrect": false,
       "answer": "100 razy"
     }, {"index": "c) ", "isCorrect": true, "answer": "10 razy"}],
-    "question": "116. W obwodzie prądu zmiennego przy tej samej częstotliwości zmieniono kondensator 2200 pF na 22 nF. Ile razy zmniejszyła się zawada Xc ?"
+    "question": "116. W obwodzie prądu zmiennego przy tej samej częstotliwości zmieniono kondensator 2200 pF na 22 nF. Ile razy zmniejszyła się reaktancja Xc ?"
   }, {
     "id": "117",
     "answers": [{
