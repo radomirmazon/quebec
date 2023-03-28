@@ -11,11 +11,11 @@ import {SettingsService} from "./settings.service";
     <mat-card-content>
       <mat-checkbox [checked]="settings.getSettings().randomQuestion" (change)="onSelectQ($event)">Czy losować kolejność pytań pobieranych z pudełka</mat-checkbox>
     </mat-card-content>
-    <!--mat-card-content>
+    <mat-card-content>
       <mat-checkbox [checked]="settings.getSettings().ka" (change)="onSelectKA($event)">
         <span *ngIf="settings.getSettings().ka">Pokazuję wszystkie pytania</span>
         <span *ngIf="!settings.getSettings().ka">Pokazuję tylko pytania na które znam odpowiedź</span></mat-checkbox>
-    </mat-card-content-->
+    </mat-card-content>
     <mat-card-footer>
       <button mat-flat-b0tton (click)="onClose()">Zamknij</button>
     </mat-card-footer>
