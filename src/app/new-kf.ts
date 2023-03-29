@@ -6546,12 +6546,12 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "poziom zakłóceń lokalnych",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "index": "b",
           "answer": "tłumienie linii zasilającej",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -6744,12 +6744,12 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "polepszenie propagacji w pasmach KF ",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
           "answer": "pogorszenie propagacji w pasmach KF ",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "index": "c",
@@ -6811,7 +6811,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "Spowodowane jest to zmianą kątów promieniowania anteny",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
