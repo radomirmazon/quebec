@@ -25,3 +25,9 @@ npm start
 Kompilowania aplikacji produkcyjnie (wynik kompilacji będzie w katalogu /docs):
 np run build
 
+
+
+### Sesja
+
+Aplikacja trzyma Twoje wyniki w local storage przeglądarki. To oznacza, że jeśli zmienisz przeglądarkę, lub używasz trypu inkognito, Twoje wyniki przepadną. 
+Używanie w tym samym czasie aplikacji na wielu zakładkach, nadpisze ostatnio kliknięty wynik. 
