@@ -20,10 +20,12 @@ i należy mieć na uwadze, iż mogą być w nich błędy. Data kopiowania bazy t
 * wykonaj npm install
 
 Aplikację możesz uruchomić lokalnie poleceniem 
+
 npm start
 
 Kompilowania aplikacji produkcyjnie (wynik kompilacji będzie w katalogu /docs):
-np run build
+
+npm run build
 
 
 
