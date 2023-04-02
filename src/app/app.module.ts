@@ -25,6 +25,7 @@ import {ClearSessionComponent} from "./egzam/pages/clear-session/clear-session.c
 import {SettingsComponent} from "./egzam/pages/settings/settings.component";
 import {MatPseudoCheckboxModule} from "@angular/material/core";
 import {MatCheckboxModule} from "@angular/material/checkbox";
+import {Egzam3Component} from "./egzam/generator/egzam3.component";
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import {MatCheckboxModule} from "@angular/material/checkbox";
     DivisionComponent,
     DirectiveElevation,
     ClearSessionComponent,
-    SettingsComponent
+    SettingsComponent,
+    Egzam3Component
   ],
   imports: [
     BrowserModule, FormsModule, HttpClientModule, BrowserAnimationsModule,
