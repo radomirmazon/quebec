@@ -1,27 +1,27 @@
 # HamSpelling
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
+Aplikacja z pytaniami do egzaminu KF. Pytania dla nowej i starej bazy. 
+Nauka polega na przekładaniu pytań, na które udzieliliśmy poprawnej odpowiedzi, do kolejnych pudeł. 
+W pierwszym pudle będą znajdowały się pytania, które powinniśmy ćwiczyć codziennie.
+Gdy nie uda nam się odpowiedzieć na któreś z pytań poprawnie, trafia ono do pierwszego pudła. 
+Powodzenia.
 
-## Development server
+## UWAGA: 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Odpowiedzi poprawne ze starego egzaminu, są skopiowanie z strony http://www.egzaminkf.pl/home.php
+Natomiast dla nowego egzaminu nie było pytań w momencie ich kopiowania z bazy 
+https://github.com/HackerspaceKRK/pytania-egzaminacyjne
+i należy mieć na uwadze, iż mogą być w nich błędy. Data kopiowania bazy to początek marca 2023.
 
-## Code scaffolding
+## Jak samemu skompilować aplikację 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* zainstaluj nodejs
+* ściągnij projekt
+* wykonaj npm install
 
-## Build
+Aplikację możesz uruchomić lokalnie poleceniem 
+npm start
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Kompilowania aplikacji produkcyjnie (wynik kompilacji będzie w katalogu /docs):
+np run build
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
