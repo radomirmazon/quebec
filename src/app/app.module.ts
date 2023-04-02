@@ -6,12 +6,12 @@ import {FormsModule} from "@angular/forms";
 import {EgzamComponent} from "./egzam/generator/egzam.component";
 import {HttpClientModule} from "@angular/common/http";
 import {SpellingComponent} from "./egzam/spelling/spelling.component";
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {SessionComponent} from "./egzam/session/session.component";
 import {AngularWebStorageModule} from "angular-web-storage";
 import {HomeComponent} from "./egzam/pages/home/home.component";
 import {QuestionComponent} from "./egzam/pages/question/question.component";
-import {MAT_DIALOG_DEFAULT_OPTIONS, MatDialogModule, MatDialogRef} from "@angular/material/dialog";
+import {MAT_DIALOG_DEFAULT_OPTIONS, MatDialogModule} from "@angular/material/dialog";
 import {MatButtonModule} from "@angular/material/button";
 import {MatCardModule} from "@angular/material/card";
 import {BoxComponent} from "./egzam/gui-components/box/box.component";
@@ -23,9 +23,7 @@ import {Egzam2Component} from "./egzam/generator/egzam2.component";
 import {MatTabsModule} from "@angular/material/tabs";
 import {ClearSessionComponent} from "./egzam/pages/clear-session/clear-session.component";
 import {SettingsComponent} from "./egzam/pages/settings/settings.component";
-import {MatPseudoCheckboxModule} from "@angular/material/core";
 import {MatCheckboxModule} from "@angular/material/checkbox";
-import {Egzam3Component} from "./egzam/generator/egzam3.component";
 
 @NgModule({
   declarations: [
@@ -40,8 +38,7 @@ import {Egzam3Component} from "./egzam/generator/egzam3.component";
     DivisionComponent,
     DirectiveElevation,
     ClearSessionComponent,
-    SettingsComponent,
-    Egzam3Component
+    SettingsComponent
   ],
   imports: [
     BrowserModule, FormsModule, HttpClientModule, BrowserAnimationsModule,
