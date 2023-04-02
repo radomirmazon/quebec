@@ -207,7 +207,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "kolektor a zasilanie",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "index": "b",
@@ -217,7 +217,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "emiter a masę",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -5070,7 +5070,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "10 m ",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "index": "b",
@@ -5080,7 +5080,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "20 m",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -5794,6 +5794,7 @@ export const newKfData = [{
       "id": "A264",
       "questionImgSrc": "",
       "question": "Jeżeli dobroć obwodu rezonansowego Q = 100, to pasmo przy częstotliwości obwodu 14 MHz ma szerokość:",
+      "explanation": "https://pl.wikipedia.org/wiki/Dobro%C4%87  delta f=f0/Q",
       "answers": [
         {
           "index": "a",
@@ -5948,16 +5949,17 @@ export const newKfData = [{
       "id": "A271",
       "questionImgSrc": "",
       "question": "Szum fazowy jest wynikiem:",
+      "explanation": "https://ep.com.pl/files/10366.pdf",
       "answers": [
         {
           "index": "a",
           "answer": "kluczowania fazy (PSK)",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "index": "b",
           "answer": "krótkich i niewielkich odchyleń częstotliwości generatora",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
