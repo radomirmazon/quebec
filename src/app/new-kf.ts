@@ -1361,7 +1361,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "analizator jest w stanie wykazać składową indukcyjną lub pojemnościową badanej anteny oraz określić miejsce rezonansu",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -1411,6 +1411,7 @@ export const newKfData = [{
     },
     {
       "id": "A65",
+      "n": true,
       "questionImgSrc": "",
       "question": "Proces, który zachodzi w nieliniowym elemencie lub układzie elektronicznym, kiedy składowe widma sygnału oddziałują na siebie tworząc fałszywe sygnały to:",
       "answers": [
@@ -1427,7 +1428,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "intermodulacja",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -3347,6 +3348,7 @@ export const newKfData = [{
     },
     {
       "id": "A153",
+      "n": true,
       "questionImgSrc": "",
       "question": "W której klasie wzmacniacz telegraficzny ma najwyższą sprawność?",
       "answers": [
@@ -3363,7 +3365,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "w klasie C",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -3513,12 +3515,12 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "14 kHz",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "index": "c",
           "answer": "140 kHz",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -4910,13 +4912,14 @@ export const newKfData = [{
     },
     {
       "id": "A224",
+      "n": true,
       "questionImgSrc": "",
       "question": "Dlaczego modulacja amplitudy AM (A3E) jest obecnie rzadziej używana od SSB (J3E)?",
       "answers": [
         {
           "index": "a",
           "answer": "gdyż ma znacznie mniejszą sprawność energetyczną i szerokość emitowanego sygnału jest dwukrotnie większa niż SSB",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -4954,6 +4957,7 @@ export const newKfData = [{
     },
     {
       "id": "A226",
+      "n": true,
       "questionImgSrc": "",
       "question": "Wzmacniacz, który wzmacnia sygnały w zakresie pasm amatorskich 3,5, 7 i 14 MHz z takim samym wzmocnieniem nazywamy:",
       "answers": [
@@ -4965,7 +4969,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "wzmacniaczem szerokopasmowym",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -4976,6 +4980,7 @@ export const newKfData = [{
     },
     {
       "id": "A227",
+      "n": true,
       "questionImgSrc": "",
       "question": "Wzmacniacz w klasie C nie może być używany do:",
       "answers": [
@@ -4987,7 +4992,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "sygnałów jednowstęgowych (J3E)",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -4998,6 +5003,7 @@ export const newKfData = [{
     },
     {
       "id": "A228",
+      "n": true,
       "questionImgSrc": "",
       "question": "Generator BFO jest niezbędny do odbioru:",
       "answers": [
@@ -5014,7 +5020,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "sygnałów telegraficznych (A1) i modulacji amplitudy ze zredukowaną falą nośną",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -5196,6 +5202,7 @@ export const newKfData = [{
     },
     {
       "id": "A237",
+      "n": true,
       "questionImgSrc": "",
       "question": "W zbudowanym wzmacniaczu m.cz. słychać dokuczliwe zakłócenia od pobliskich telefonów komórkowych. Co można zrobić, by te zakłócenia zmniejszyć:",
       "answers": [
@@ -5207,7 +5214,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "zaekranować stopień wejściowy tego wzmacniacza",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -5284,6 +5291,7 @@ export const newKfData = [{
     },
     {
       "id": "A241",
+      "n": true,
       "questionImgSrc": "",
       "question": "Zasilacz dostarcza do stopnia końcowego nadajnika napięcie 500 V i prąd 200 mA. Jaka jest sprawność energetyczna stopnia końcowego, jeżeli na wyjściu zmierzyliśmy moc PEP = 40 W?",
       "answers": [
@@ -5295,7 +5303,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "40%",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -5328,13 +5336,14 @@ export const newKfData = [{
     },
     {
       "id": "A243",
+      "n": true,
       "questionImgSrc": "",
       "question": "W przetwornikach analogowo-cyfrowych, aby poprawnie odczytać sygnał wejściowy, częstotliwość próbkowania musi być:",
       "answers": [
         {
           "index": "a",
           "answer": "większa lub równa dwukrotności najwyższej częstotliwości przetwarzanego sygnału",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -5460,6 +5469,7 @@ export const newKfData = [{
     },
     {
       "id": "A249",
+      "n": true,
       "questionImgSrc": "",
       "question": "Do budowy cewek często wykorzystujemy rdzenie toroidalne, ponieważ:",
       "answers": [
@@ -5476,7 +5486,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "większość pola magnetycznego zamyka się w rdzeniu i cewka mniej wpływa na inne elementy",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -5505,13 +5515,14 @@ export const newKfData = [{
     },
     {
       "id": "A251",
+      "n": true,
       "questionImgSrc": "",
       "question": "Krótkofalowiec zbudował skrzynkę antenową, ale przy pracy z tą skrzynką obserwuje słabe świecenie niezasilanej świetlówki, które nie występuje po odłączeniu skrzynki. Co może wykonać, by to zjawisko wyeliminować?",
       "answers": [
         {
           "index": "a",
           "answer": "wprowadzić ekranowanie skrzynki, na przykład w postaci szczelnej, metalowej obudowy",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -5661,6 +5672,7 @@ export const newKfData = [{
     {
       "id": "A258",
       "questionImgSrc": "",
+      "n": true,
       "question": "W idealnym tranzystorze MOSFET prąd wpływający do bramki jest:",
       "answers": [
         {
@@ -5676,19 +5688,20 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "zerowy",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
     {
       "id": "A259",
+      "n": true,
       "questionImgSrc": "https://hackerspacekrk.github.io/pytania-egzaminacyjne/ilustracje/A_1_261.png",
       "question": "Jaka jest funkcja kondensatora C1 w układzie przedstawionym na rysunku?",
       "answers": [
         {
           "index": "a",
           "answer": "zwiększenie wzmocnienia dla prądów zmiennych",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -5770,13 +5783,14 @@ export const newKfData = [{
     },
     {
       "id": "A263",
+      "n": true,
       "questionImgSrc": "",
       "question": "Obwód rezonansowy szeregowy LC, w punkcie rezonansu, przedstawia:",
       "answers": [
         {
           "index": "a",
           "answer": "tylko rezystancję",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -5815,6 +5829,7 @@ export const newKfData = [{
     },
     {
       "id": "A265",
+      "n": true,
       "questionImgSrc": "",
       "question": "Skrzynka antenowa w układzie T, gdzie szeregowo włączone są kondensatory, a równolegle cewka, jest:",
       "answers": [
@@ -5826,7 +5841,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "filtrem górnoprzepustowym",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -5837,13 +5852,14 @@ export const newKfData = [{
     },
     {
       "id": "A266",
+      "n": true,
       "questionImgSrc": "",
       "question": "Zwiększenie rzędu filtru powoduje:",
       "answers": [
         {
           "index": "a",
           "answer": "zwiększenie stromości zbocza",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -5892,7 +5908,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "klasa A",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -5941,7 +5957,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "zwiększenie stabilności wzmacniacza.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -6086,7 +6102,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "zakłócenia określane jako kliki",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -6179,7 +6195,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "bardzo wysoką impedancję",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -6240,7 +6256,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "poziomą ",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -6267,7 +6283,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "tak choć sygnał będzie znacznie słabszy niż przy zgodnej polaryzacji ",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -6328,7 +6344,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "5 W",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -6372,7 +6388,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "wyindukowanie silnego sygnału w.cz. w antenie odbiorczej",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -6394,7 +6410,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "A - 100 W, B - 100 W",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -6416,7 +6432,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "przełączyć się na dipol",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -6443,7 +6459,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "najmocniej w płaszczyźnie prostopadłej do osi zawieszenia dipola",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -6465,7 +6481,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "na osi wschód-zachód",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -6487,7 +6503,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "nie",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -6580,7 +6596,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "stratę około 70% mocy nadajnika",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -6597,7 +6613,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "zasilamy dipol półfalowy kablem koncentrycznym ",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -6614,7 +6630,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "poprawę odporności odbiornika na silne sygnały",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -6641,7 +6657,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "brak przeszkód terenowych",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -6658,7 +6674,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "łączność w zasięgu horyzontalnym",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -6685,7 +6701,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "z racji na silne tłumienie w warstwie D",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -6795,7 +6811,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "anten o niskim kącie promieniowania",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -6889,7 +6905,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "zainstalować antenę wysoko, by mieć jak najdalszy horyzont radiowy",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -6906,7 +6922,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "głównie latem, dzięki propagacji w warstwie sporadycznej E",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -6945,7 +6961,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "na pasmach fal ultrakrótkich, np. 6 m lub 2 m",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -7011,7 +7027,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "przez odległe burze",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -7038,7 +7054,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "znaczenie na falach ultrakrótkich i mikrofalach, gdyż szum atmosferyczny jest tam bardzo słaby",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -7060,7 +7076,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "przejść na telegrafię lub emisje cyfrowe do słabych sygnałów",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -7109,7 +7125,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "będziemy ją nadal słyszeć, być może z nieco większym szumem",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -7197,7 +7213,7 @@ export const newKfData = [{
         {
           "index": "c",
           "answer": "wszystkie odpowiedzi są poprawne",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -7231,7 +7247,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "oporność wewnętrzna woltomierza",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -7258,7 +7274,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "przyrządu GDO lub analizatora wektorowego",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -7275,7 +7291,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "dopasowanie linii zasilającej",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -7368,7 +7384,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "może wprowadzać zakłócenia spowodowane przez nieodfiltrowane harmoniczne",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -7385,7 +7401,7 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "różnicą pomiędzy najsłabszym a najmocniejszym sygnałem",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
@@ -7412,7 +7428,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "zawsze, bez względu na moc",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
@@ -10020,7 +10036,7 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "kategorycznie nie wolno",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
