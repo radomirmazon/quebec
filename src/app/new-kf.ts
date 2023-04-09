@@ -3774,12 +3774,12 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "użycie przetwornika cyfrowo-analogowego ",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
           "answer": "cyfrowe przestrajanie obwodu rezonansowego ",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "index": "c",

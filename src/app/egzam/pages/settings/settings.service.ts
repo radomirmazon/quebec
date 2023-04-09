@@ -22,9 +22,7 @@ export class SettingsService {
       if (s.randomQuestion === undefined) {
         s.randomQuestion = true;
       }
-      if (s.ka === undefined) {
-        s.ka = true;
-      }
+      s.ka = true;
       this.settings = s;
     }
   }
@@ -41,11 +39,6 @@ export class SettingsService {
 
   private store() {
     this.local.set(SETTINGS_KEY, this.settings, 0);
-  }
-
-  setKA(ka: boolean) {
-    this.settings.ka = ka;
-    this.store();
   }
 
   getSettings() {
