@@ -1,5 +1,7 @@
 # HamSpelling
 
+link do aplikacji https://radomirmazon.github.io/quebec/
+
 Aplikacja z pytaniami do egzaminu KF. Pytania dla nowej i starej bazy. 
 Nauka polega na przekładaniu pytań, na które udzieliliśmy poprawnej odpowiedzi, do kolejnych pudeł. 
 W pierwszym pudle będą znajdowały się pytania, które powinniśmy ćwiczyć codziennie.
