@@ -3200,12 +3200,12 @@ export const newKfData = [{
         {
           "index": "a",
           "answer": "o 10 dB",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "b",
           "answer": "o 20 dB",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "index": "c",
@@ -5549,12 +5549,12 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "stosowanie jej jako przełącznika w. cz.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "index": "c",
           "answer": "stosowanie jej jako elementu ochronnego przed przepięciem",
-          "isCorrect": true
+          "isCorrect": false
         }
       ]
     },
