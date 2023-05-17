@@ -10058,12 +10058,12 @@ export const newKfData = [{
         {
           "index": "b",
           "answer": "zgłosić do Urzędu Komunikacji Elektronicznej fakt nieuprawnionej transmisji w paśmie amatorskim",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "index": "c",
           "answer": "nie robić nic",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
